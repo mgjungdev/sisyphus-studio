@@ -1,0 +1,2978 @@
+{
+ "a-bag-of-cookies|f|100": {
+  "dur": 1.121,
+  "hash": "6acc0425db9a1b5a"
+ },
+ "a-bag-of-cookies|f|80": {
+  "dur": 1.379,
+  "hash": "5ef1b6b17f2d0b89"
+ },
+ "a-bag-of-cookies|m|100": {
+  "dur": 1.264,
+  "hash": "b8a7f78e12ed2fd9"
+ },
+ "a-bag-of-cookies|m|80": {
+  "dur": 1.61,
+  "hash": "62990abfcace7124"
+ },
+ "a-bear-ate-the-pear-by-e280b5|f|100": {
+  "dur": 1.632,
+  "hash": "6984821bee3b1ffd"
+ },
+ "a-bear-ate-the-pear-by-e280b5|f|80": {
+  "dur": 2.168,
+  "hash": "b0736cb2ad629e2a"
+ },
+ "a-bear-ate-the-pear-by-e280b5|m|100": {
+  "dur": 2.004,
+  "hash": "410766889077f5ac"
+ },
+ "a-bear-ate-the-pear-by-e280b5|m|80": {
+  "dur": 2.364,
+  "hash": "a90698e828a1f9d2"
+ },
+ "a-big-black-desk|f|100": {
+  "dur": 1.1,
+  "hash": "a0f7153a090cf44f"
+ },
+ "a-big-black-desk|f|80": {
+  "dur": 1.346,
+  "hash": "da6cef5549225d21"
+ },
+ "a-big-black-desk|m|100": {
+  "dur": 1.235,
+  "hash": "c6d9ed3ca004f49f"
+ },
+ "a-big-black-desk|m|80": {
+  "dur": 1.516,
+  "hash": "81f59e1d31e05caa"
+ },
+ "a-big-red-boat|f|100": {
+  "dur": 1.081,
+  "hash": "72243c48a5468674"
+ },
+ "a-big-red-boat|f|80": {
+  "dur": 1.425,
+  "hash": "6ed08fba032377bb"
+ },
+ "a-big-red-boat|m|100": {
+  "dur": 1.233,
+  "hash": "5c85476eb8769c6c"
+ },
+ "a-big-red-boat|m|80": {
+  "dur": 1.594,
+  "hash": "5524e61c40ce4e56"
+ },
+ "a-cold-cup-of-cocoa|f|100": {
+  "dur": 1.429,
+  "hash": "38267e6448c00d07"
+ },
+ "a-cold-cup-of-cocoa|f|80": {
+  "dur": 1.801,
+  "hash": "5fe127a32d46b782"
+ },
+ "a-cold-cup-of-cocoa|m|100": {
+  "dur": 1.546,
+  "hash": "9c8c5bbd1570e39a"
+ },
+ "a-cold-cup-of-cocoa|m|80": {
+  "dur": 2.014,
+  "hash": "a1623f7fd14452d6"
+ },
+ "a-green-jacket-hung-by-a35bb0|f|100": {
+  "dur": 2.424,
+  "hash": "f3fe3e0f9a50da40"
+ },
+ "a-green-jacket-hung-by-a35bb0|f|80": {
+  "dur": 2.988,
+  "hash": "9066b89eb0562a87"
+ },
+ "a-green-jacket-hung-by-a35bb0|m|100": {
+  "dur": 2.531,
+  "hash": "6245483ee9c4311b"
+ },
+ "a-green-jacket-hung-by-a35bb0|m|80": {
+  "dur": 3.187,
+  "hash": "063f1354e3b836d4"
+ },
+ "a-peach-in-a-basket|f|100": {
+  "dur": 1.249,
+  "hash": "1b8d6839dae94176"
+ },
+ "a-peach-in-a-basket|f|80": {
+  "dur": 1.57,
+  "hash": "54f6b4553c4e6973"
+ },
+ "a-peach-in-a-basket|m|100": {
+  "dur": 1.364,
+  "hash": "de60e5d304c61fe5"
+ },
+ "a-peach-in-a-basket|m|80": {
+  "dur": 1.77,
+  "hash": "dc4db4df20260d8d"
+ },
+ "a-spot-in-the-sky|f|100": {
+  "dur": 1.05,
+  "hash": "cfd6e5b9ce2aee3d"
+ },
+ "a-spot-in-the-sky|f|80": {
+  "dur": 1.388,
+  "hash": "bf75a27efbefd9c4"
+ },
+ "a-spot-in-the-sky|m|100": {
+  "dur": 1.162,
+  "hash": "f344e348ee2b200e"
+ },
+ "a-spot-in-the-sky|m|80": {
+  "dur": 1.538,
+  "hash": "168ebb62dbecb5e5"
+ },
+ "a-star-sparkled-in-the-7369ec|f|100": {
+  "dur": 1.929,
+  "hash": "2360250f88ab3005"
+ },
+ "a-star-sparkled-in-the-7369ec|f|80": {
+  "dur": 2.417,
+  "hash": "c6e856ab8275f114"
+ },
+ "a-star-sparkled-in-the-7369ec|m|100": {
+  "dur": 2.224,
+  "hash": "6383a7c304aeff93"
+ },
+ "a-star-sparkled-in-the-7369ec|m|80": {
+  "dur": 2.991,
+  "hash": "fb0e2992df32a031"
+ },
+ "a-ticket-to-the-game|f|100": {
+  "dur": 1.145,
+  "hash": "5e0b0a3642dfcb3a"
+ },
+ "a-ticket-to-the-game|f|80": {
+  "dur": 1.487,
+  "hash": "851a8addba48504d"
+ },
+ "a-ticket-to-the-game|m|100": {
+  "dur": 1.351,
+  "hash": "840cb824c6b8dc42"
+ },
+ "a-ticket-to-the-game|m|80": {
+  "dur": 1.741,
+  "hash": "f4ecdf4d5df98a72"
+ },
+ "ago|f|100": {
+  "dur": 0.596,
+  "hash": "c44267619ce86099"
+ },
+ "ago|f|80": {
+  "dur": 0.78,
+  "hash": "501989cf00ef9972"
+ },
+ "ago|m|100": {
+  "dur": 0.744,
+  "hash": "a2825f6e5a778b7d"
+ },
+ "ago|m|80": {
+  "dur": 0.913,
+  "hash": "90959b69133134f0"
+ },
+ "and-kate-has-got-us-a-b5227a|f|100": {
+  "dur": 1.493,
+  "hash": "a5b91af18ead78ea"
+ },
+ "and-kate-has-got-us-a-b5227a|f|80": {
+  "dur": 1.819,
+  "hash": "a5a5803faa5cfb76"
+ },
+ "and-kate-has-got-us-a-b5227a|m|100": {
+  "dur": 1.62,
+  "hash": "3f47915d9e915411"
+ },
+ "and-kate-has-got-us-a-b5227a|m|80": {
+  "dur": 2.079,
+  "hash": "98aba0f6bce7dc8f"
+ },
+ "apple|f|100": {
+  "dur": 0.605,
+  "hash": "554d22b3ade64cfc"
+ },
+ "apple|f|80": {
+  "dur": 0.802,
+  "hash": "bf7e9ed9e7270363"
+ },
+ "apple|m|100": {
+  "dur": 0.797,
+  "hash": "09e34cb2127c0699"
+ },
+ "apple|m|80": {
+  "dur": 0.947,
+  "hash": "a5fae4a5b71cc254"
+ },
+ "at-the-gate-a-guard-8eb44d|f|100": {
+  "dur": 2.108,
+  "hash": "81679bf20fa10321"
+ },
+ "at-the-gate-a-guard-8eb44d|f|80": {
+  "dur": 2.565,
+  "hash": "ea208d126a82f831"
+ },
+ "at-the-gate-a-guard-8eb44d|m|100": {
+  "dur": 2.307,
+  "hash": "daf8f58c0b9c5d35"
+ },
+ "at-the-gate-a-guard-8eb44d|m|80": {
+  "dur": 2.852,
+  "hash": "556899554bb6fde5"
+ },
+ "baby|f|100": {
+  "dur": 0.64,
+  "hash": "72a9d6511b0cdecd"
+ },
+ "baby|f|80": {
+  "dur": 0.825,
+  "hash": "dab821c801880f07"
+ },
+ "baby|m|100": {
+  "dur": 0.7,
+  "hash": "022fad7bd0bb4751"
+ },
+ "baby|m|80": {
+  "dur": 0.913,
+  "hash": "6199c460401104b0"
+ },
+ "back|f|100": {
+  "dur": 0.55,
+  "hash": "4ff57a97b4dff098"
+ },
+ "back|f|80": {
+  "dur": 0.692,
+  "hash": "28a130a08d0b935a"
+ },
+ "back|m|100": {
+  "dur": 0.562,
+  "hash": "9bfacb3322aee677"
+ },
+ "back|m|80": {
+  "dur": 0.692,
+  "hash": "9b4bfe6d59659ffd"
+ },
+ "bag|f|100": {
+  "dur": 0.553,
+  "hash": "f2257f3a45e68c65"
+ },
+ "bag|f|80": {
+  "dur": 0.697,
+  "hash": "4267db8c2d867e8f"
+ },
+ "bag|m|100": {
+  "dur": 0.604,
+  "hash": "5b648feebbae9c00"
+ },
+ "bag|m|80": {
+  "dur": 0.737,
+  "hash": "debd5cd697904c45"
+ },
+ "basket|f|100": {
+  "dur": 0.696,
+  "hash": "7ac809df81e8d04b"
+ },
+ "basket|f|80": {
+  "dur": 0.915,
+  "hash": "34d38dc17a0db877"
+ },
+ "basket|m|100": {
+  "dur": 0.778,
+  "hash": "91b0fdba9573b09b"
+ },
+ "basket|m|80": {
+  "dur": 0.941,
+  "hash": "045dbd8e3c1427a3"
+ },
+ "bat|f|100": {
+  "dur": 0.538,
+  "hash": "767deaac19cf9faf"
+ },
+ "bat|f|80": {
+  "dur": 0.645,
+  "hash": "4bfb1c0987920519"
+ },
+ "bat|m|100": {
+  "dur": 0.545,
+  "hash": "2ecb785c1e8d227f"
+ },
+ "bat|m|80": {
+  "dur": 0.653,
+  "hash": "86b14b0461fa3bc8"
+ },
+ "beach|f|100": {
+  "dur": 0.607,
+  "hash": "a38cfa6b8b283131"
+ },
+ "beach|f|80": {
+  "dur": 0.775,
+  "hash": "6b47f30400ea0633"
+ },
+ "beach|m|100": {
+  "dur": 0.685,
+  "hash": "a14c45ae8e89013f"
+ },
+ "beach|m|80": {
+  "dur": 0.849,
+  "hash": "a2fb8954d4ce8e38"
+ },
+ "bear|f|100": {
+  "dur": 0.542,
+  "hash": "d36640928e81024c"
+ },
+ "bear|f|80": {
+  "dur": 0.669,
+  "hash": "c215966d20c28f93"
+ },
+ "bear|m|100": {
+  "dur": 0.59,
+  "hash": "a40aa27d00240b86"
+ },
+ "bear|m|80": {
+  "dur": 0.719,
+  "hash": "cf4f9214deb9c56a"
+ },
+ "because|f|100": {
+  "dur": 0.667,
+  "hash": "46f6bf347409bba6"
+ },
+ "because|f|80": {
+  "dur": 0.839,
+  "hash": "61b419894fc133a1"
+ },
+ "because|m|100": {
+  "dur": 0.657,
+  "hash": "e94d6fea081d4590"
+ },
+ "because|m|80": {
+  "dur": 0.88,
+  "hash": "1367b102e6cccfa4"
+ },
+ "bed|f|100": {
+  "dur": 0.428,
+  "hash": "729e14962482bb54"
+ },
+ "bed|f|80": {
+  "dur": 0.525,
+  "hash": "f5d3781554639a69"
+ },
+ "bed|m|100": {
+  "dur": 0.484,
+  "hash": "796f4d3da5d9d427"
+ },
+ "bed|m|80": {
+  "dur": 0.575,
+  "hash": "d76eaae4986f7be3"
+ },
+ "begin|f|100": {
+  "dur": 0.667,
+  "hash": "3debcc81589d410a"
+ },
+ "begin|f|80": {
+  "dur": 0.833,
+  "hash": "ba81daeff9cb6662"
+ },
+ "begin|m|100": {
+  "dur": 0.7,
+  "hash": "7b137101ef3d42c6"
+ },
+ "begin|m|80": {
+  "dur": 0.927,
+  "hash": "11b0efb088bbac6f"
+ },
+ "ben-and-kate-planned-a-320aa3|f|100": {
+  "dur": 2.019,
+  "hash": "4d72e1ea5a9de963"
+ },
+ "ben-and-kate-planned-a-320aa3|f|80": {
+  "dur": 2.466,
+  "hash": "866a9a8acea6ea46"
+ },
+ "ben-and-kate-planned-a-320aa3|m|100": {
+  "dur": 2.129,
+  "hash": "4a33757f9545ec14"
+ },
+ "ben-and-kate-planned-a-320aa3|m|80": {
+  "dur": 2.763,
+  "hash": "a330052d9aad5f02"
+ },
+ "ben-checked-the-tickets-7de2ec|f|100": {
+  "dur": 2.748,
+  "hash": "1446248328743f70"
+ },
+ "ben-checked-the-tickets-7de2ec|f|80": {
+  "dur": 3.3,
+  "hash": "3870f502171253d7"
+ },
+ "ben-checked-the-tickets-7de2ec|m|100": {
+  "dur": 2.847,
+  "hash": "cd461026884b799b"
+ },
+ "ben-checked-the-tickets-7de2ec|m|80": {
+  "dur": 3.525,
+  "hash": "22e5de156d532fc1"
+ },
+ "ben-put-a-paper-bag-on-bfd28b|f|100": {
+  "dur": 1.88,
+  "hash": "ead1bd22761c7096"
+ },
+ "ben-put-a-paper-bag-on-bfd28b|f|80": {
+  "dur": 2.392,
+  "hash": "cbf8440d81c37e86"
+ },
+ "ben-put-a-paper-bag-on-bfd28b|m|100": {
+  "dur": 1.96,
+  "hash": "e16033bb32a9c49b"
+ },
+ "ben-put-a-paper-bag-on-bfd28b|m|80": {
+  "dur": 2.539,
+  "hash": "5c4d76a243d204d8"
+ },
+ "bet|f|100": {
+  "dur": 0.542,
+  "hash": "ee42bf103497e8ef"
+ },
+ "bet|f|80": {
+  "dur": 0.673,
+  "hash": "7b484df9547425c5"
+ },
+ "bet|m|100": {
+  "dur": 0.566,
+  "hash": "c87f5d7c22896c41"
+ },
+ "bet|m|80": {
+  "dur": 0.692,
+  "hash": "0938a7b09b053a00"
+ },
+ "big-black-desk|f|100": {
+  "dur": 1.128,
+  "hash": "47310bad92826394"
+ },
+ "big-black-desk|f|80": {
+  "dur": 1.467,
+  "hash": "06e9947e8069ad84"
+ },
+ "big-black-desk|m|100": {
+  "dur": 1.165,
+  "hash": "8f519e2f36344544"
+ },
+ "big-black-desk|m|80": {
+  "dur": 1.573,
+  "hash": "28b4ca1631bb85c9"
+ },
+ "big-desk|f|100": {
+  "dur": 0.778,
+  "hash": "fff6a0c21fe8876f"
+ },
+ "big-desk|f|80": {
+  "dur": 1.03,
+  "hash": "55120f7a35c8f630"
+ },
+ "big-desk|m|100": {
+  "dur": 0.849,
+  "hash": "728df8058787d5e2"
+ },
+ "big-desk|m|80": {
+  "dur": 1.137,
+  "hash": "31bff1e16c705345"
+ },
+ "bigger|f|100": {
+  "dur": 0.543,
+  "hash": "56fd260529e6773d"
+ },
+ "bigger|f|80": {
+  "dur": 0.67,
+  "hash": "dd0d410ba09279b7"
+ },
+ "bigger|m|100": {
+  "dur": 0.534,
+  "hash": "97394dc6192a03b8"
+ },
+ "bigger|m|80": {
+  "dur": 0.731,
+  "hash": "6aebaa87be3dba3f"
+ },
+ "big|f|100": {
+  "dur": 0.547,
+  "hash": "da6d68a7506126fb"
+ },
+ "big|f|80": {
+  "dur": 0.685,
+  "hash": "3e6dd7e39bfc1518"
+ },
+ "big|m|100": {
+  "dur": 0.593,
+  "hash": "7ac4ebfce626a61d"
+ },
+ "big|m|80": {
+  "dur": 0.751,
+  "hash": "c20fcbc14d27b015"
+ },
+ "black|f|100": {
+  "dur": 0.584,
+  "hash": "3ab291baac741a7c"
+ },
+ "black|f|80": {
+  "dur": 0.723,
+  "hash": "ca99377f66cd5cfa"
+ },
+ "black|m|100": {
+  "dur": 0.589,
+  "hash": "319176efc2d1d82b"
+ },
+ "black|m|80": {
+  "dur": 0.748,
+  "hash": "8410df4bc4482989"
+ },
+ "block|f|100": {
+  "dur": 0.612,
+  "hash": "5f89c98627715739"
+ },
+ "block|f|80": {
+  "dur": 0.759,
+  "hash": "907cdc3faed0f82f"
+ },
+ "block|m|100": {
+  "dur": 0.64,
+  "hash": "cc2189cf7c873094"
+ },
+ "block|m|80": {
+  "dur": 0.842,
+  "hash": "23b0c963a08b0eda"
+ },
+ "blue|f|100": {
+  "dur": 0.586,
+  "hash": "cfca2b29bed96aca"
+ },
+ "blue|f|80": {
+  "dur": 0.745,
+  "hash": "3b38dec2441eb10b"
+ },
+ "blue|m|100": {
+  "dur": 0.609,
+  "hash": "5dc37e4ba0d5efdf"
+ },
+ "blue|m|80": {
+  "dur": 0.769,
+  "hash": "044fce7154c361ef"
+ },
+ "bob-baked-bread|f|100": {
+  "dur": 0.941,
+  "hash": "c50407e4eebcdc06"
+ },
+ "bob-baked-bread|f|80": {
+  "dur": 1.141,
+  "hash": "b2ca85ed1b25d155"
+ },
+ "bob-baked-bread|m|100": {
+  "dur": 1.05,
+  "hash": "63235719ee4f6b65"
+ },
+ "bob-baked-bread|m|80": {
+  "dur": 1.24,
+  "hash": "370c409db7a9338c"
+ },
+ "bob-baked-some-bread|f|100": {
+  "dur": 1.262,
+  "hash": "5ab282158db718e1"
+ },
+ "bob-baked-some-bread|f|80": {
+  "dur": 1.642,
+  "hash": "d914c1a3c917af44"
+ },
+ "bob-baked-some-bread|m|100": {
+  "dur": 1.38,
+  "hash": "1ad65c5d5f222881"
+ },
+ "bob-baked-some-bread|m|80": {
+  "dur": 1.743,
+  "hash": "55ccbea52dda5353"
+ },
+ "bob-brought-a-rope-and-a-811023|f|100": {
+  "dur": 1.98,
+  "hash": "d6cd9dd3bbdedf88"
+ },
+ "bob-brought-a-rope-and-a-811023|f|80": {
+  "dur": 2.488,
+  "hash": "f3cad2a9d532c449"
+ },
+ "bob-brought-a-rope-and-a-811023|m|100": {
+  "dur": 2.178,
+  "hash": "fc9669fff080bb2a"
+ },
+ "bob-brought-a-rope-and-a-811023|m|80": {
+  "dur": 2.885,
+  "hash": "db89dceb9939fb9f"
+ },
+ "bob-has-baked-some-bread|f|100": {
+  "dur": 1.425,
+  "hash": "9e53a1d015f48642"
+ },
+ "bob-has-baked-some-bread|f|80": {
+  "dur": 1.839,
+  "hash": "21be3047589c863d"
+ },
+ "bob-has-baked-some-bread|m|100": {
+  "dur": 1.542,
+  "hash": "a249639d50e6106e"
+ },
+ "bob-has-baked-some-bread|m|80": {
+  "dur": 2.043,
+  "hash": "8ef6c309af239238"
+ },
+ "bob-has-been-baking-some-447d0f|f|100": {
+  "dur": 1.678,
+  "hash": "e74e34c96c22aee4"
+ },
+ "bob-has-been-baking-some-447d0f|f|80": {
+  "dur": 2.249,
+  "hash": "e1c740feeec4e461"
+ },
+ "bob-has-been-baking-some-447d0f|m|100": {
+  "dur": 1.885,
+  "hash": "e8aa5f78aeea05a9"
+ },
+ "bob-has-been-baking-some-447d0f|m|80": {
+  "dur": 2.555,
+  "hash": "63ca94e58162e90e"
+ },
+ "bowl|f|100": {
+  "dur": 0.562,
+  "hash": "6d73f4b2c2959bc7"
+ },
+ "bowl|f|80": {
+  "dur": 0.732,
+  "hash": "647db9de1486c943"
+ },
+ "bowl|m|100": {
+  "dur": 0.582,
+  "hash": "286b1f8b1f34a1f1"
+ },
+ "bowl|m|80": {
+  "dur": 0.771,
+  "hash": "f79481544cdf85cf"
+ },
+ "bread|f|100": {
+  "dur": 0.518,
+  "hash": "098dda97c26123c5"
+ },
+ "bread|f|80": {
+  "dur": 0.703,
+  "hash": "045546b694cfec6a"
+ },
+ "bread|m|100": {
+  "dur": 0.545,
+  "hash": "13f9299bf8f7f6d5"
+ },
+ "bread|m|80": {
+  "dur": 0.68,
+  "hash": "02c10538d41974ad"
+ },
+ "bright|f|100": {
+  "dur": 0.624,
+  "hash": "07493a63ade9eff1"
+ },
+ "bright|f|80": {
+  "dur": 0.801,
+  "hash": "dabb20e73f0eb7d3"
+ },
+ "bright|m|100": {
+  "dur": 0.646,
+  "hash": "4450f42e9141c275"
+ },
+ "bright|m|80": {
+  "dur": 0.859,
+  "hash": "61ba5f438bc489ba"
+ },
+ "bring|f|100": {
+  "dur": 0.597,
+  "hash": "c08c07bb48aab460"
+ },
+ "bring|f|80": {
+  "dur": 0.728,
+  "hash": "271055f65b3705e4"
+ },
+ "bring|m|100": {
+  "dur": 0.654,
+  "hash": "5fde8608cc82a43b"
+ },
+ "bring|m|80": {
+  "dur": 0.853,
+  "hash": "776a23f1ab98e730"
+ },
+ "bull|f|100": {
+  "dur": 0.565,
+  "hash": "59156c4ed4681e1a"
+ },
+ "bull|f|80": {
+  "dur": 0.702,
+  "hash": "384196cdaa5eeb98"
+ },
+ "bull|m|100": {
+  "dur": 0.612,
+  "hash": "3bf0ade1bd0c4801"
+ },
+ "bull|m|80": {
+  "dur": 0.763,
+  "hash": "69885c10f7bec727"
+ },
+ "butterfly|f|100": {
+  "dur": 0.796,
+  "hash": "1140b750cf674b75"
+ },
+ "butterfly|f|80": {
+  "dur": 1.033,
+  "hash": "834fac01e1d35cf0"
+ },
+ "butterfly|m|100": {
+  "dur": 0.884,
+  "hash": "9697fbc885d8c32d"
+ },
+ "butterfly|m|80": {
+  "dur": 1.177,
+  "hash": "b1d6c4c3db78bfd8"
+ },
+ "buy-a-peach-at-the-shop-4e9c9e|f|100": {
+  "dur": 1.835,
+  "hash": "b91dfce818928c90"
+ },
+ "buy-a-peach-at-the-shop-4e9c9e|f|80": {
+  "dur": 2.233,
+  "hash": "cf90f69efb01230a"
+ },
+ "buy-a-peach-at-the-shop-4e9c9e|m|100": {
+  "dur": 2.034,
+  "hash": "58075266578a39a5"
+ },
+ "buy-a-peach-at-the-shop-4e9c9e|m|80": {
+  "dur": 2.615,
+  "hash": "23a74975bba5b381"
+ },
+ "buy|f|100": {
+  "dur": 0.547,
+  "hash": "4909d691cd13ccc9"
+ },
+ "buy|f|80": {
+  "dur": 0.665,
+  "hash": "61be2bde976b1056"
+ },
+ "buy|m|100": {
+  "dur": 0.59,
+  "hash": "1608b8f73e192ed9"
+ },
+ "buy|m|80": {
+  "dur": 0.699,
+  "hash": "083ca27ab3bd0a0a"
+ },
+ "cab|f|100": {
+  "dur": 0.568,
+  "hash": "810884a69c338c85"
+ },
+ "cab|f|80": {
+  "dur": 0.705,
+  "hash": "0aa0c00a05a8566b"
+ },
+ "cab|m|100": {
+  "dur": 0.589,
+  "hash": "18e305ba3c879e22"
+ },
+ "cab|m|80": {
+  "dur": 0.738,
+  "hash": "b3c9c97e02d10b81"
+ },
+ "came|f|100": {
+  "dur": 0.6,
+  "hash": "a6d478d57200f62a"
+ },
+ "came|f|80": {
+  "dur": 0.735,
+  "hash": "7ccebbade52edc2a"
+ },
+ "came|m|100": {
+  "dur": 0.638,
+  "hash": "52478f113760a314"
+ },
+ "came|m|80": {
+  "dur": 0.813,
+  "hash": "f17483ecc45ea0af"
+ },
+ "can|f|100": {
+  "dur": 0.552,
+  "hash": "2265a440cd3fe35c"
+ },
+ "can|f|80": {
+  "dur": 0.707,
+  "hash": "87754b5eb0c472a7"
+ },
+ "can|m|100": {
+  "dur": 0.65,
+  "hash": "379168b6f2821fed"
+ },
+ "can|m|80": {
+  "dur": 0.788,
+  "hash": "b096e140ce0fda67"
+ },
+ "capital|f|100": {
+  "dur": 0.659,
+  "hash": "b9cfab8bb1ff3458"
+ },
+ "capital|f|80": {
+  "dur": 0.896,
+  "hash": "11628bdb60afcd3f"
+ },
+ "capital|m|100": {
+  "dur": 0.741,
+  "hash": "d94c651198d7e9fa"
+ },
+ "capital|m|80": {
+  "dur": 0.986,
+  "hash": "23c92617282b62e4"
+ },
+ "cap|f|100": {
+  "dur": 0.559,
+  "hash": "a75298c5c0da0f62"
+ },
+ "cap|f|80": {
+  "dur": 0.662,
+  "hash": "838df6d9fc674b0b"
+ },
+ "cap|m|100": {
+  "dur": 0.54,
+  "hash": "773a6b6b9078f904"
+ },
+ "cap|m|80": {
+  "dur": 0.679,
+  "hash": "865a59d55dcd9df0"
+ },
+ "class|f|100": {
+  "dur": 0.597,
+  "hash": "00842a47e769d436"
+ },
+ "class|f|80": {
+  "dur": 0.765,
+  "hash": "5cff596df6a70ca5"
+ },
+ "class|m|100": {
+  "dur": 0.647,
+  "hash": "dec72262829271d4"
+ },
+ "class|m|80": {
+  "dur": 0.81,
+  "hash": "b90bc586b00d073d"
+ },
+ "clean|f|100": {
+  "dur": 0.636,
+  "hash": "ff65a47437d0c3fe"
+ },
+ "clean|f|80": {
+  "dur": 0.749,
+  "hash": "beb1df363952e8dd"
+ },
+ "clean|m|100": {
+  "dur": 0.713,
+  "hash": "4872668f41135328"
+ },
+ "clean|m|80": {
+  "dur": 0.944,
+  "hash": "4dde59bdc4d887ec"
+ },
+ "coat|f|100": {
+  "dur": 0.569,
+  "hash": "36bf225fa9f6dee7"
+ },
+ "coat|f|80": {
+  "dur": 0.68,
+  "hash": "8f499bc7c756dfdf"
+ },
+ "coat|m|100": {
+  "dur": 0.563,
+  "hash": "ad31b4ecf454b681"
+ },
+ "coat|m|80": {
+  "dur": 0.751,
+  "hash": "b62e445faf1f6c08"
+ },
+ "cold|f|100": {
+  "dur": 0.617,
+  "hash": "cb4e85053e890423"
+ },
+ "cold|f|80": {
+  "dur": 0.758,
+  "hash": "960808fe2c0adddf"
+ },
+ "cold|m|100": {
+  "dur": 0.645,
+  "hash": "bb3633f023bd377c"
+ },
+ "cold|m|80": {
+  "dur": 0.878,
+  "hash": "73b3b33f65d3f712"
+ },
+ "computer|f|100": {
+  "dur": 0.762,
+  "hash": "35d26784d8c73044"
+ },
+ "computer|f|80": {
+  "dur": 1.006,
+  "hash": "3a74879a8be64c97"
+ },
+ "computer|m|100": {
+  "dur": 0.826,
+  "hash": "2d5f5595659f7ee1"
+ },
+ "computer|m|80": {
+  "dur": 1.197,
+  "hash": "59616908a52f8f68"
+ },
+ "cookie|f|100": {
+  "dur": 0.642,
+  "hash": "3737e3fdbef5bdba"
+ },
+ "cookie|f|80": {
+  "dur": 0.854,
+  "hash": "0a3804ff39fe7f5d"
+ },
+ "cookie|m|100": {
+  "dur": 0.643,
+  "hash": "69377d3b69ef4aa9"
+ },
+ "cookie|m|80": {
+  "dur": 0.927,
+  "hash": "28bfddf9677d7bf8"
+ },
+ "cool|f|100": {
+  "dur": 0.569,
+  "hash": "e96e6cf8b1a725f4"
+ },
+ "cool|f|80": {
+  "dur": 0.742,
+  "hash": "86e7cfbef9e50c5a"
+ },
+ "cool|m|100": {
+  "dur": 0.699,
+  "hash": "124dfbb33e30ca1c"
+ },
+ "cool|m|80": {
+  "dur": 0.838,
+  "hash": "1d5764e450c1e391"
+ },
+ "cream|f|100": {
+  "dur": 0.625,
+  "hash": "1c88deee4627e05e"
+ },
+ "cream|f|80": {
+  "dur": 0.773,
+  "hash": "a38612bfd3baf7a3"
+ },
+ "cream|m|100": {
+  "dur": 0.704,
+  "hash": "f14f6cc1e82ed4c6"
+ },
+ "cream|m|80": {
+  "dur": 0.943,
+  "hash": "82af34f36a85acbe"
+ },
+ "crow|f|100": {
+  "dur": 0.584,
+  "hash": "ea38dee9e8591fd3"
+ },
+ "crow|f|80": {
+  "dur": 0.748,
+  "hash": "40f08138d71775cb"
+ },
+ "crow|m|100": {
+  "dur": 0.609,
+  "hash": "5ec2cf3068a12181"
+ },
+ "crow|m|80": {
+  "dur": 0.818,
+  "hash": "ae01480f185236e7"
+ },
+ "curl|f|100": {
+  "dur": 0.571,
+  "hash": "ec9269d844ceae26"
+ },
+ "curl|f|80": {
+  "dur": 0.716,
+  "hash": "251c50bbb94adf35"
+ },
+ "curl|m|100": {
+  "dur": 0.571,
+  "hash": "44101f899d7a6b30"
+ },
+ "curl|m|80": {
+  "dur": 0.748,
+  "hash": "bfa8b9906da9c382"
+ },
+ "dan-dropped-a-seed-by-91af99|f|100": {
+  "dur": 1.721,
+  "hash": "978569d40705cadd"
+ },
+ "dan-dropped-a-seed-by-91af99|f|80": {
+  "dur": 2.206,
+  "hash": "aeb9ab8212fd3370"
+ },
+ "dan-dropped-a-seed-by-91af99|m|100": {
+  "dur": 1.857,
+  "hash": "4a2e281e17698c8f"
+ },
+ "dan-dropped-a-seed-by-91af99|m|80": {
+  "dur": 2.481,
+  "hash": "46c695564082a1c9"
+ },
+ "decide|f|100": {
+  "dur": 0.725,
+  "hash": "f6f7d9d9a4c05526"
+ },
+ "decide|f|80": {
+  "dur": 0.938,
+  "hash": "6046841f56c11236"
+ },
+ "decide|m|100": {
+  "dur": 0.808,
+  "hash": "5b286459aafdcc19"
+ },
+ "decide|m|80": {
+  "dur": 1.046,
+  "hash": "291870da4d502db3"
+ },
+ "decorate|f|100": {
+  "dur": 0.773,
+  "hash": "758691cddf6e66a6"
+ },
+ "decorate|f|80": {
+  "dur": 1.029,
+  "hash": "9a92f7d590833fd4"
+ },
+ "decorate|m|100": {
+  "dur": 0.856,
+  "hash": "c1f7a170c2128db3"
+ },
+ "decorate|m|80": {
+  "dur": 1.138,
+  "hash": "434a411c3d8df604"
+ },
+ "den|f|100": {
+  "dur": 0.553,
+  "hash": "c5bc6e39e4ab2df1"
+ },
+ "den|f|80": {
+  "dur": 0.671,
+  "hash": "4b4ec14a8d082b32"
+ },
+ "den|m|100": {
+  "dur": 0.648,
+  "hash": "4dc1989654823b5e"
+ },
+ "den|m|80": {
+  "dur": 0.826,
+  "hash": "f9ba44db6aa53343"
+ },
+ "department|f|100": {
+  "dur": 0.785,
+  "hash": "08ef8a66f9dd61ea"
+ },
+ "department|f|80": {
+  "dur": 1.019,
+  "hash": "095dc87aa9dafa16"
+ },
+ "department|m|100": {
+  "dur": 0.917,
+  "hash": "1343acad46e6a276"
+ },
+ "department|m|80": {
+  "dur": 1.238,
+  "hash": "071e63083c1712b3"
+ },
+ "desk|f|100": {
+  "dur": 0.592,
+  "hash": "8c40b8afb92cee9b"
+ },
+ "desk|f|80": {
+  "dur": 0.745,
+  "hash": "3f88c6ceb9d4b34e"
+ },
+ "desk|m|100": {
+  "dur": 0.65,
+  "hash": "8300a0dafda66562"
+ },
+ "desk|m|80": {
+  "dur": 0.797,
+  "hash": "6b57c363d08978f8"
+ },
+ "die|f|100": {
+  "dur": 0.554,
+  "hash": "f29bd3364c6ebff8"
+ },
+ "die|f|80": {
+  "dur": 0.688,
+  "hash": "23feeaf38c337c34"
+ },
+ "die|m|100": {
+  "dur": 0.634,
+  "hash": "ce59ef52c0be1665"
+ },
+ "die|m|80": {
+  "dur": 0.759,
+  "hash": "013343e2724d9af1"
+ },
+ "dime|f|100": {
+  "dur": 0.608,
+  "hash": "07b8aa45be5306ed"
+ },
+ "dime|f|80": {
+  "dur": 0.731,
+  "hash": "90a33988748a3dbc"
+ },
+ "dime|m|100": {
+  "dur": 0.662,
+  "hash": "a37e48c4a483e0fc"
+ },
+ "dime|m|80": {
+  "dur": 0.876,
+  "hash": "ad06c1d6aca73d1a"
+ },
+ "dip|f|100": {
+  "dur": 0.529,
+  "hash": "b352c177dc7be82d"
+ },
+ "dip|f|80": {
+  "dur": 0.634,
+  "hash": "7eb22cb9957091c3"
+ },
+ "dip|m|100": {
+  "dur": 0.563,
+  "hash": "f5f5366ff065ffc6"
+ },
+ "dip|m|80": {
+  "dur": 0.688,
+  "hash": "4b460397fd509f96"
+ },
+ "dollar|f|100": {
+  "dur": 0.611,
+  "hash": "f11c542a71f5d66f"
+ },
+ "dollar|f|80": {
+  "dur": 0.807,
+  "hash": "cac4f67201df6f40"
+ },
+ "dollar|m|100": {
+  "dur": 0.639,
+  "hash": "85fa2a0e34c23fb4"
+ },
+ "dollar|m|80": {
+  "dur": 0.919,
+  "hash": "7e730f840b5a9964"
+ },
+ "down|f|100": {
+  "dur": 0.57,
+  "hash": "cb8124f1a4494955"
+ },
+ "down|f|80": {
+  "dur": 0.709,
+  "hash": "a76a0f39226fd5d0"
+ },
+ "down|m|100": {
+  "dur": 0.619,
+  "hash": "4e6916103b2504db"
+ },
+ "down|m|80": {
+  "dur": 0.788,
+  "hash": "64e828856b9570d4"
+ },
+ "drain|f|100": {
+  "dur": 0.624,
+  "hash": "07435ecff9d64174"
+ },
+ "drain|f|80": {
+  "dur": 0.786,
+  "hash": "ad0bcc638f4032ed"
+ },
+ "drain|m|100": {
+  "dur": 0.671,
+  "hash": "7e597beb088d84e8"
+ },
+ "drain|m|80": {
+  "dur": 0.901,
+  "hash": "d3061726f7aad788"
+ },
+ "dream|f|100": {
+  "dur": 0.603,
+  "hash": "382c0a9d62ccb664"
+ },
+ "dream|f|80": {
+  "dur": 0.808,
+  "hash": "6f8c0f10d48f6397"
+ },
+ "dream|m|100": {
+  "dur": 0.705,
+  "hash": "6b58175cebef0bbe"
+ },
+ "dream|m|80": {
+  "dur": 0.962,
+  "hash": "0b5591c3319f21ba"
+ },
+ "dress|f|100": {
+  "dur": 0.595,
+  "hash": "a326748ea5b35c47"
+ },
+ "dress|f|80": {
+  "dur": 0.761,
+  "hash": "1ee2dcb5ef5bd3e9"
+ },
+ "dress|m|100": {
+  "dur": 0.617,
+  "hash": "9e2b3694511a2e6d"
+ },
+ "dress|m|80": {
+  "dur": 0.811,
+  "hash": "e2a1c2e7c2a92bab"
+ },
+ "drive|f|100": {
+  "dur": 0.621,
+  "hash": "79e09c82551cf28a"
+ },
+ "drive|f|80": {
+  "dur": 0.796,
+  "hash": "6cabe863fc644210"
+ },
+ "drive|m|100": {
+  "dur": 0.706,
+  "hash": "a280144dbf08198a"
+ },
+ "drive|m|80": {
+  "dur": 0.899,
+  "hash": "7f63a1fc3151d183"
+ },
+ "dry|f|100": {
+  "dur": 0.583,
+  "hash": "f133095e92d8ebdd"
+ },
+ "dry|f|80": {
+  "dur": 0.702,
+  "hash": "8242855f4ecce213"
+ },
+ "dry|m|100": {
+  "dur": 0.618,
+  "hash": "794f867573d7fbca"
+ },
+ "dry|m|80": {
+  "dur": 0.766,
+  "hash": "4749698d14cdfd88"
+ },
+ "game|f|100": {
+  "dur": 0.58,
+  "hash": "6420a9bf7e8c9667"
+ },
+ "game|f|80": {
+  "dur": 0.765,
+  "hash": "71375a1f4924b6e4"
+ },
+ "game|m|100": {
+  "dur": 0.644,
+  "hash": "112bced29b8a3542"
+ },
+ "game|m|80": {
+  "dur": 0.827,
+  "hash": "6b274b792f5d0780"
+ },
+ "gap|f|100": {
+  "dur": 0.544,
+  "hash": "ba4136ff9f978cb7"
+ },
+ "gap|f|80": {
+  "dur": 0.661,
+  "hash": "7dbd2a9dfa0566a9"
+ },
+ "gap|m|100": {
+  "dur": 0.577,
+  "hash": "cd713e9ed7238148"
+ },
+ "gap|m|80": {
+  "dur": 0.738,
+  "hash": "915252aeaa3d74ff"
+ },
+ "garden|f|100": {
+  "dur": 0.695,
+  "hash": "c44b51b802588aca"
+ },
+ "garden|f|80": {
+  "dur": 0.872,
+  "hash": "aaa86720e766db3e"
+ },
+ "garden|m|100": {
+  "dur": 0.818,
+  "hash": "d5d469a41fa2ff75"
+ },
+ "garden|m|80": {
+  "dur": 1.051,
+  "hash": "ea8b7ecab446c43c"
+ },
+ "girl|f|100": {
+  "dur": 0.457,
+  "hash": "ff093cff0f5f55d1"
+ },
+ "girl|f|80": {
+  "dur": 0.567,
+  "hash": "660a7c01a1162581"
+ },
+ "girl|m|100": {
+  "dur": 0.521,
+  "hash": "5b3ffe34f1a7b17e"
+ },
+ "girl|m|80": {
+  "dur": 0.657,
+  "hash": "32ffb058ad8ef17b"
+ },
+ "glass|f|100": {
+  "dur": 0.612,
+  "hash": "2ee3675c36386966"
+ },
+ "glass|f|80": {
+  "dur": 0.802,
+  "hash": "ef6aba058dc2507a"
+ },
+ "glass|m|100": {
+  "dur": 0.68,
+  "hash": "436f19ab1a352b78"
+ },
+ "glass|m|80": {
+  "dur": 0.837,
+  "hash": "7cf68ba98946d5ae"
+ },
+ "goat|f|100": {
+  "dur": 0.583,
+  "hash": "755259ec293cde35"
+ },
+ "goat|f|80": {
+  "dur": 0.717,
+  "hash": "d8ed56792fb4a7a2"
+ },
+ "goat|m|100": {
+  "dur": 0.619,
+  "hash": "a27e23ad3f9ce159"
+ },
+ "goat|m|80": {
+  "dur": 0.813,
+  "hash": "f818169c1b59fc3e"
+ },
+ "gold|f|100": {
+  "dur": 0.609,
+  "hash": "c0926fb8c6cce614"
+ },
+ "gold|f|80": {
+  "dur": 0.792,
+  "hash": "e35aba412b637a55"
+ },
+ "gold|m|100": {
+  "dur": 0.709,
+  "hash": "7d1d8a09b2f5dfcd"
+ },
+ "gold|m|80": {
+  "dur": 0.938,
+  "hash": "8e909618bb27dfee"
+ },
+ "go|f|100": {
+  "dur": 0.561,
+  "hash": "c90c50e55b82dcb8"
+ },
+ "go|f|80": {
+  "dur": 0.673,
+  "hash": "9903567a2a6579c0"
+ },
+ "go|m|100": {
+  "dur": 0.618,
+  "hash": "a15661285fa88e4e"
+ },
+ "go|m|80": {
+  "dur": 0.794,
+  "hash": "e5efc966937e0361"
+ },
+ "graduate|f|100": {
+  "dur": 0.765,
+  "hash": "5e400198e01e4c11"
+ },
+ "graduate|f|80": {
+  "dur": 1.006,
+  "hash": "d2ffd47ead14ce09"
+ },
+ "graduate|m|100": {
+  "dur": 0.938,
+  "hash": "7f045da2238cfcfe"
+ },
+ "graduate|m|80": {
+  "dur": 1.203,
+  "hash": "3c4578a81a341b50"
+ },
+ "green|f|100": {
+  "dur": 0.622,
+  "hash": "61f1233eb561bcb0"
+ },
+ "green|f|80": {
+  "dur": 0.794,
+  "hash": "efdd64225496da4d"
+ },
+ "green|m|100": {
+  "dur": 0.756,
+  "hash": "f74795b8bec8e048"
+ },
+ "green|m|80": {
+  "dur": 0.996,
+  "hash": "c8ae365c55be7c0a"
+ },
+ "grow|f|100": {
+  "dur": 0.575,
+  "hash": "8bf08e5b6f9330af"
+ },
+ "grow|f|80": {
+  "dur": 0.722,
+  "hash": "71cb82eae56c9614"
+ },
+ "grow|m|100": {
+  "dur": 0.672,
+  "hash": "3030797d39141f8f"
+ },
+ "grow|m|80": {
+  "dur": 0.863,
+  "hash": "bbb9f7360fa7ef6f"
+ },
+ "hang-your-bag-on-your-b82d05|f|100": {
+  "dur": 1.361,
+  "hash": "1a54030582b8b26e"
+ },
+ "hang-your-bag-on-your-b82d05|f|80": {
+  "dur": 1.662,
+  "hash": "7d871faff4fe3716"
+ },
+ "hang-your-bag-on-your-b82d05|m|100": {
+  "dur": 1.599,
+  "hash": "be9862d16f1e5b06"
+ },
+ "hang-your-bag-on-your-b82d05|m|80": {
+  "dur": 1.984,
+  "hash": "bb6a74db92d02332"
+ },
+ "i-bet-youll-like-the-new-44d49a|f|100": {
+  "dur": 1.43,
+  "hash": "1087d08e1e8db7fc"
+ },
+ "i-bet-youll-like-the-new-44d49a|f|80": {
+  "dur": 1.8,
+  "hash": "4682504c7d545d87"
+ },
+ "i-bet-youll-like-the-new-44d49a|m|100": {
+  "dur": 1.632,
+  "hash": "2f4bb0f0593bed7e"
+ },
+ "i-bet-youll-like-the-new-44d49a|m|80": {
+  "dur": 2.078,
+  "hash": "d4e777cf27839537"
+ },
+ "jacket|f|100": {
+  "dur": 0.705,
+  "hash": "828a37eee59ee1f1"
+ },
+ "jacket|f|80": {
+  "dur": 0.94,
+  "hash": "83761020d6d26d46"
+ },
+ "jacket|m|100": {
+  "dur": 0.754,
+  "hash": "74160215a2604902"
+ },
+ "jacket|m|80": {
+  "dur": 0.955,
+  "hash": "08ee9b5c0f5fc5f0"
+ },
+ "kate-got-a-cake|f|100": {
+  "dur": 1.057,
+  "hash": "b4f74e36908aaefd"
+ },
+ "kate-got-a-cake|f|80": {
+  "dur": 1.284,
+  "hash": "1353f1ce90362717"
+ },
+ "kate-got-a-cake|m|100": {
+  "dur": 1.126,
+  "hash": "3d040dda8b04c774"
+ },
+ "kate-got-a-cake|m|80": {
+  "dur": 1.458,
+  "hash": "f063956d63765f0a"
+ },
+ "kate-got-cake|f|100": {
+  "dur": 0.972,
+  "hash": "95af8bfe82d7c7bf"
+ },
+ "kate-got-cake|f|80": {
+  "dur": 1.249,
+  "hash": "b8f042cfd6a2ef00"
+ },
+ "kate-got-cake|m|100": {
+  "dur": 1.058,
+  "hash": "3a9a749552c569c8"
+ },
+ "kate-got-cake|m|80": {
+  "dur": 1.393,
+  "hash": "b7c187cc9dbd1e05"
+ },
+ "kate-got-us-a-cake|f|100": {
+  "dur": 1.185,
+  "hash": "ebd6c91bbb98312d"
+ },
+ "kate-got-us-a-cake|f|80": {
+  "dur": 1.465,
+  "hash": "d0cc30a0604b3a88"
+ },
+ "kate-got-us-a-cake|m|100": {
+  "dur": 1.313,
+  "hash": "25cd6256fdcf4958"
+ },
+ "kate-got-us-a-cake|m|80": {
+  "dur": 1.699,
+  "hash": "e18fe748562403f7"
+ },
+ "kate-packed-a-picnic-077393|f|100": {
+  "dur": 4.494,
+  "hash": "30be53854af21050"
+ },
+ "kate-packed-a-picnic-077393|f|80": {
+  "dur": 5.938,
+  "hash": "602fa07475551297"
+ },
+ "kate-packed-a-picnic-077393|m|100": {
+  "dur": 5.211,
+  "hash": "14c152e2863c518b"
+ },
+ "kate-packed-a-picnic-077393|m|80": {
+  "dur": 6.613,
+  "hash": "77073acae03fb197"
+ },
+ "keep-the-top-of-the-box-25f849|f|100": {
+  "dur": 1.736,
+  "hash": "7e60f24f1df7ed92"
+ },
+ "keep-the-top-of-the-box-25f849|f|80": {
+  "dur": 2.205,
+  "hash": "b5af23453545c7e8"
+ },
+ "keep-the-top-of-the-box-25f849|m|100": {
+  "dur": 1.919,
+  "hash": "4cf8acad1911ee19"
+ },
+ "keep-the-top-of-the-box-25f849|m|80": {
+  "dur": 2.556,
+  "hash": "bc80c255c2308c02"
+ },
+ "keep-your-skis-in-the-03fb84|f|100": {
+  "dur": 1.698,
+  "hash": "f363853a2d08c258"
+ },
+ "keep-your-skis-in-the-03fb84|f|80": {
+  "dur": 2.12,
+  "hash": "17de03d23abb590b"
+ },
+ "keep-your-skis-in-the-03fb84|m|100": {
+  "dur": 1.915,
+  "hash": "fd8a1a480e1bc02c"
+ },
+ "keep-your-skis-in-the-03fb84|m|80": {
+  "dur": 2.463,
+  "hash": "8521358c77c70aeb"
+ },
+ "key|f|100": {
+  "dur": 0.55,
+  "hash": "13336507a2dfa13c"
+ },
+ "key|f|80": {
+  "dur": 0.685,
+  "hash": "2047fa17ddd7fcf6"
+ },
+ "key|m|100": {
+  "dur": 0.598,
+  "hash": "67c3a2c901e481d1"
+ },
+ "key|m|80": {
+  "dur": 0.738,
+  "hash": "f6b9779511d77216"
+ },
+ "kim-left-her-coat-at-54e910|f|100": {
+  "dur": 1.468,
+  "hash": "4977196f7c3c9e97"
+ },
+ "kim-left-her-coat-at-54e910|f|80": {
+  "dur": 1.858,
+  "hash": "42950459a3fae400"
+ },
+ "kim-left-her-coat-at-54e910|m|100": {
+  "dur": 1.569,
+  "hash": "8aef9a9ddeefe72b"
+ },
+ "kim-left-her-coat-at-54e910|m|80": {
+  "dur": 2.063,
+  "hash": "d561169d261a5f39"
+ },
+ "lock|f|100": {
+  "dur": 0.583,
+  "hash": "0379be379f92858c"
+ },
+ "lock|f|80": {
+  "dur": 0.738,
+  "hash": "ae057657f5ea8eb9"
+ },
+ "lock|m|100": {
+  "dur": 0.653,
+  "hash": "a9c13d9f9b585d5f"
+ },
+ "lock|m|80": {
+  "dur": 0.821,
+  "hash": "1139e8fbed13c5ed"
+ },
+ "log|f|100": {
+  "dur": 0.557,
+  "hash": "314a369e9c7d1490"
+ },
+ "log|f|80": {
+  "dur": 0.719,
+  "hash": "6f99cc022a7a20b6"
+ },
+ "log|m|100": {
+  "dur": 0.6,
+  "hash": "c11d8e85a2245ccc"
+ },
+ "log|m|80": {
+  "dur": 0.778,
+  "hash": "fa7748d6dd5b2e61"
+ },
+ "pack-the-blue-bag-before-b003a2|f|100": {
+  "dur": 1.892,
+  "hash": "653443e213318266"
+ },
+ "pack-the-blue-bag-before-b003a2|f|80": {
+  "dur": 2.339,
+  "hash": "d19676958f6d3e12"
+ },
+ "pack-the-blue-bag-before-b003a2|m|100": {
+  "dur": 2.055,
+  "hash": "cbb75a961e93a2e6"
+ },
+ "pack-the-blue-bag-before-b003a2|m|80": {
+  "dur": 2.561,
+  "hash": "769f9bd4c61f3f44"
+ },
+ "pack|f|100": {
+  "dur": 0.54,
+  "hash": "eda38d3bb2aaa178"
+ },
+ "pack|f|80": {
+  "dur": 0.696,
+  "hash": "8cfe4e28bded314a"
+ },
+ "pack|m|100": {
+  "dur": 0.594,
+  "hash": "ae87cae757c6bcae"
+ },
+ "pack|m|80": {
+  "dur": 0.685,
+  "hash": "b06ac2b6ad47a2ef"
+ },
+ "paper|f|100": {
+  "dur": 0.678,
+  "hash": "9bb27a9c1fad4c6f"
+ },
+ "paper|f|80": {
+  "dur": 0.908,
+  "hash": "aa665a911bc54b6c"
+ },
+ "paper|m|100": {
+  "dur": 0.71,
+  "hash": "dbc748fee52df05a"
+ },
+ "paper|m|80": {
+  "dur": 0.973,
+  "hash": "f7c78a6c965837b6"
+ },
+ "pat-has-a-bat-and-a-e44cf2|f|100": {
+  "dur": 1.677,
+  "hash": "36dff452967c9ea1"
+ },
+ "pat-has-a-bat-and-a-e44cf2|f|80": {
+  "dur": 2.083,
+  "hash": "96336e2dea187a14"
+ },
+ "pat-has-a-bat-and-a-e44cf2|m|100": {
+  "dur": 1.851,
+  "hash": "6bfa91c3a3379169"
+ },
+ "pat-has-a-bat-and-a-e44cf2|m|80": {
+  "dur": 2.299,
+  "hash": "b7ee8d67f915ecc0"
+ },
+ "pat|f|100": {
+  "dur": 0.535,
+  "hash": "865834888eee4c3b"
+ },
+ "pat|f|80": {
+  "dur": 0.702,
+  "hash": "3008494a672e38f8"
+ },
+ "pat|m|100": {
+  "dur": 0.583,
+  "hash": "d4dc5e09fb08fcdf"
+ },
+ "pat|m|80": {
+  "dur": 0.685,
+  "hash": "7a055a4177969c5f"
+ },
+ "paul-spilled-the-paint-ea4e86|f|100": {
+  "dur": 1.796,
+  "hash": "a79dd5d91efc2470"
+ },
+ "paul-spilled-the-paint-ea4e86|f|80": {
+  "dur": 2.212,
+  "hash": "13f2a7e940b5349e"
+ },
+ "paul-spilled-the-paint-ea4e86|m|100": {
+  "dur": 1.943,
+  "hash": "b4634fc48c2f7a9f"
+ },
+ "paul-spilled-the-paint-ea4e86|m|80": {
+  "dur": 2.524,
+  "hash": "761879fb248ce9ce"
+ },
+ "peach|f|100": {
+  "dur": 0.622,
+  "hash": "0cfdd1d5202f515a"
+ },
+ "peach|f|80": {
+  "dur": 0.807,
+  "hash": "3918037514a07916"
+ },
+ "peach|m|100": {
+  "dur": 0.634,
+  "hash": "103b8967c7d44f5a"
+ },
+ "peach|m|80": {
+  "dur": 0.789,
+  "hash": "45863ee1e2ea047b"
+ },
+ "pear|f|100": {
+  "dur": 0.561,
+  "hash": "4d5f74ff83e4afb4"
+ },
+ "pear|f|80": {
+  "dur": 0.721,
+  "hash": "86f420bd0b2e44d7"
+ },
+ "pear|m|100": {
+  "dur": 0.611,
+  "hash": "96ebffd5a5158d43"
+ },
+ "pear|m|80": {
+  "dur": 0.772,
+  "hash": "fcd9bc2758a4791a"
+ },
+ "pen|f|100": {
+  "dur": 0.558,
+  "hash": "0696c9eb727f7e3d"
+ },
+ "pen|f|80": {
+  "dur": 0.723,
+  "hash": "8478200fb740ac76"
+ },
+ "pen|m|100": {
+  "dur": 0.592,
+  "hash": "5f466ce5ec196a73"
+ },
+ "pen|m|80": {
+  "dur": 0.805,
+  "hash": "d938d6dcc91ff74c"
+ },
+ "pick-up-the-little-pig|f|100": {
+  "dur": 1.197,
+  "hash": "b310dd92e959c1ba"
+ },
+ "pick-up-the-little-pig|f|80": {
+  "dur": 1.56,
+  "hash": "cbcac92a0fa80573"
+ },
+ "pick-up-the-little-pig|m|100": {
+  "dur": 1.272,
+  "hash": "35c9c4d8ff88fb5a"
+ },
+ "pick-up-the-little-pig|m|80": {
+  "dur": 1.62,
+  "hash": "46c584f190c09ed8"
+ },
+ "pickpocket|f|100": {
+  "dur": 0.798,
+  "hash": "3bd5f52cf640d04b"
+ },
+ "pickpocket|f|80": {
+  "dur": 1.081,
+  "hash": "c8def32b2b0e2035"
+ },
+ "pickpocket|m|100": {
+  "dur": 0.88,
+  "hash": "4ae7bca5c47613f6"
+ },
+ "pickpocket|m|80": {
+  "dur": 1.183,
+  "hash": "9aca92e3af5bd6d8"
+ },
+ "pick|f|100": {
+  "dur": 0.536,
+  "hash": "0864756483d01e7e"
+ },
+ "pick|f|80": {
+  "dur": 0.68,
+  "hash": "cb4bf1b4a4fdc053"
+ },
+ "pick|m|100": {
+  "dur": 0.54,
+  "hash": "63fd2cf702682235"
+ },
+ "pick|m|80": {
+  "dur": 0.63,
+  "hash": "897a45f6b4decfc8"
+ },
+ "pie|f|100": {
+  "dur": 0.553,
+  "hash": "fcb3df8362bea7d6"
+ },
+ "pie|f|80": {
+  "dur": 0.741,
+  "hash": "ca430cf6309dc69e"
+ },
+ "pie|m|100": {
+  "dur": 0.61,
+  "hash": "eae8bfce0dde3ecd"
+ },
+ "pie|m|80": {
+  "dur": 0.76,
+  "hash": "4704a7114c051fe2"
+ },
+ "pig|f|100": {
+  "dur": 0.556,
+  "hash": "9768fa9a1379b0b6"
+ },
+ "pig|f|80": {
+  "dur": 0.707,
+  "hash": "5d62ccd643fef69c"
+ },
+ "pig|m|100": {
+  "dur": 0.587,
+  "hash": "87def5c789693f8b"
+ },
+ "pig|m|80": {
+  "dur": 0.738,
+  "hash": "73e031f8c43fd149"
+ },
+ "pin|f|100": {
+  "dur": 0.555,
+  "hash": "4f80b20e017a1d6b"
+ },
+ "pin|f|80": {
+  "dur": 0.718,
+  "hash": "f289d9255c4445f2"
+ },
+ "pin|m|100": {
+  "dur": 0.545,
+  "hash": "17a723eafa513daf"
+ },
+ "pin|m|80": {
+  "dur": 0.702,
+  "hash": "605abb5435d65732"
+ },
+ "plant-the-seed-near-the-1ab782|f|100": {
+  "dur": 1.498,
+  "hash": "723f1a4a7fd0d184"
+ },
+ "plant-the-seed-near-the-1ab782|f|80": {
+  "dur": 1.914,
+  "hash": "5798e7ab6b93afb6"
+ },
+ "plant-the-seed-near-the-1ab782|m|100": {
+  "dur": 1.664,
+  "hash": "110d36a9705bdd51"
+ },
+ "plant-the-seed-near-the-1ab782|m|80": {
+  "dur": 2.055,
+  "hash": "a01b9cf4a25897bb"
+ },
+ "plan|f|100": {
+  "dur": 0.58,
+  "hash": "e0603b2e18c3ef91"
+ },
+ "plan|f|80": {
+  "dur": 0.743,
+  "hash": "7f675d46e551d8d4"
+ },
+ "plan|m|100": {
+  "dur": 0.614,
+  "hash": "95fbaec1d2ff4803"
+ },
+ "plan|m|80": {
+  "dur": 0.85,
+  "hash": "0dc8ff6e4c47e16d"
+ },
+ "play|f|100": {
+  "dur": 0.601,
+  "hash": "9ee3e49f8a4f6f97"
+ },
+ "play|f|80": {
+  "dur": 0.761,
+  "hash": "e4f4ccf3fda9e273"
+ },
+ "play|m|100": {
+  "dur": 0.593,
+  "hash": "53cd4fd4aa668ff1"
+ },
+ "play|m|80": {
+  "dur": 0.769,
+  "hash": "4c7912f1f26d0baf"
+ },
+ "please-put-the-rope-by-5b7daa|f|100": {
+  "dur": 1.615,
+  "hash": "f32c74556f41a5cb"
+ },
+ "please-put-the-rope-by-5b7daa|f|80": {
+  "dur": 2.048,
+  "hash": "ef67b38b5cbd56f2"
+ },
+ "please-put-the-rope-by-5b7daa|m|100": {
+  "dur": 1.801,
+  "hash": "c779448413e32d40"
+ },
+ "please-put-the-rope-by-5b7daa|m|80": {
+  "dur": 2.259,
+  "hash": "84e21ec54dd46e15"
+ },
+ "pocket|f|100": {
+  "dur": 0.683,
+  "hash": "5ef3a3b3f260d08d"
+ },
+ "pocket|f|80": {
+  "dur": 0.87,
+  "hash": "6f3a0b77d4df98d8"
+ },
+ "pocket|m|100": {
+  "dur": 0.72,
+  "hash": "6d1442b1e8ed89af"
+ },
+ "pocket|m|80": {
+  "dur": 0.928,
+  "hash": "533e60ed70f0f58b"
+ },
+ "pole|f|100": {
+  "dur": 0.557,
+  "hash": "8d14f72d61338c98"
+ },
+ "pole|f|80": {
+  "dur": 0.587,
+  "hash": "1ccd78f6f3746d0f"
+ },
+ "pole|m|100": {
+  "dur": 0.425,
+  "hash": "c6b4ff15ca33bac0"
+ },
+ "pole|m|80": {
+  "dur": 0.631,
+  "hash": "d91a709df7246b93"
+ },
+ "police|f|100": {
+  "dur": 0.658,
+  "hash": "4688632620576552"
+ },
+ "police|f|80": {
+  "dur": 0.825,
+  "hash": "d6cc137b76d184a2"
+ },
+ "police|m|100": {
+  "dur": 0.716,
+  "hash": "76112ba65b5198e4"
+ },
+ "police|m|80": {
+  "dur": 0.92,
+  "hash": "d91608983ac2c90d"
+ },
+ "potato|f|100": {
+  "dur": 0.734,
+  "hash": "712a6de8f2bf8bd1"
+ },
+ "potato|f|80": {
+  "dur": 0.968,
+  "hash": "e3aea10bfc2d5b2e"
+ },
+ "potato|m|100": {
+  "dur": 0.785,
+  "hash": "7149113eb904560b"
+ },
+ "potato|m|80": {
+  "dur": 1.069,
+  "hash": "d7caccea2dc3038f"
+ },
+ "pot|f|100": {
+  "dur": 0.56,
+  "hash": "a10d8819e55ad45a"
+ },
+ "pot|f|80": {
+  "dur": 0.699,
+  "hash": "27b6b0488c3b57ef"
+ },
+ "pot|m|100": {
+  "dur": 0.583,
+  "hash": "56707e4c911bb0c4"
+ },
+ "pot|m|80": {
+  "dur": 0.8,
+  "hash": "ae6ff085c50be3b3"
+ },
+ "price|f|100": {
+  "dur": 0.634,
+  "hash": "a19c1462833e2b18"
+ },
+ "price|f|80": {
+  "dur": 0.841,
+  "hash": "f5785e4367dd99ba"
+ },
+ "price|m|100": {
+  "dur": 0.646,
+  "hash": "eaf2587236c1a055"
+ },
+ "price|m|80": {
+  "dur": 0.836,
+  "hash": "fdb619ef9abb4b69"
+ },
+ "pull|f|100": {
+  "dur": 0.55,
+  "hash": "ebb0d920c2ec0020"
+ },
+ "pull|f|80": {
+  "dur": 0.697,
+  "hash": "da4f153a27cfc40e"
+ },
+ "pull|m|100": {
+  "dur": 0.561,
+  "hash": "26ffc73513d08bf9"
+ },
+ "pull|m|80": {
+  "dur": 0.719,
+  "hash": "36e050dbb5fe419b"
+ },
+ "put-the-cap-in-the-cab|f|100": {
+  "dur": 1.166,
+  "hash": "0794bc2e91323337"
+ },
+ "put-the-cap-in-the-cab|f|80": {
+  "dur": 1.571,
+  "hash": "0d6f8090cab65fee"
+ },
+ "put-the-cap-in-the-cab|m|100": {
+  "dur": 1.416,
+  "hash": "d43b315d38499b60"
+ },
+ "put-the-cap-in-the-cab|m|80": {
+  "dur": 1.769,
+  "hash": "ec511e3ebfe2e8b7"
+ },
+ "put-the-paper-beside-the-02b8cc|f|100": {
+  "dur": 2.114,
+  "hash": "194b471614d0f1d1"
+ },
+ "put-the-paper-beside-the-02b8cc|f|80": {
+  "dur": 2.577,
+  "hash": "6628147ee248771e"
+ },
+ "put-the-paper-beside-the-02b8cc|m|100": {
+  "dur": 2.316,
+  "hash": "df2ac4ab7b9f8ade"
+ },
+ "put-the-paper-beside-the-02b8cc|m|80": {
+  "dur": 2.944,
+  "hash": "edba86cd3a5f5ed1"
+ },
+ "rabbit|f|100": {
+  "dur": 0.655,
+  "hash": "7877c0db8361425d"
+ },
+ "rabbit|f|80": {
+  "dur": 0.836,
+  "hash": "3fa43be322cc045e"
+ },
+ "rabbit|m|100": {
+  "dur": 0.688,
+  "hash": "a5a29f0a4b3e2a58"
+ },
+ "rabbit|m|80": {
+  "dur": 0.912,
+  "hash": "f7894a0c708084ae"
+ },
+ "ride|f|100": {
+  "dur": 0.498,
+  "hash": "c5a8c6219aca526f"
+ },
+ "ride|f|80": {
+  "dur": 0.621,
+  "hash": "c0f5ba9f2ae357db"
+ },
+ "ride|m|100": {
+  "dur": 0.577,
+  "hash": "c59b84c85f3c7472"
+ },
+ "ride|m|80": {
+  "dur": 0.693,
+  "hash": "596a1dd1c6ebc085"
+ },
+ "robe|f|100": {
+  "dur": 0.616,
+  "hash": "139c3cc02b09c4d1"
+ },
+ "robe|f|80": {
+  "dur": 0.77,
+  "hash": "538e4055b98fd2f4"
+ },
+ "robe|m|100": {
+  "dur": 0.639,
+  "hash": "f502cf15ee14a24d"
+ },
+ "robe|m|80": {
+  "dur": 0.831,
+  "hash": "9b95ca910ada722d"
+ },
+ "rope|f|100": {
+  "dur": 0.584,
+  "hash": "c8f52b839b84c3b7"
+ },
+ "rope|f|80": {
+  "dur": 0.73,
+  "hash": "b6941b5cdc799606"
+ },
+ "rope|m|100": {
+  "dur": 0.626,
+  "hash": "f20bbbe2aed5d64d"
+ },
+ "rope|m|80": {
+  "dur": 0.788,
+  "hash": "37e8be2d9667100d"
+ },
+ "scan|f|100": {
+  "dur": 0.637,
+  "hash": "09354ec0edbb1bd0"
+ },
+ "scan|f|80": {
+  "dur": 0.782,
+  "hash": "2139dfd42e95ba6b"
+ },
+ "scan|m|100": {
+  "dur": 0.713,
+  "hash": "df0605432083b47c"
+ },
+ "scan|m|80": {
+  "dur": 0.888,
+  "hash": "8b59a61386a6ca4d"
+ },
+ "school|f|100": {
+  "dur": 0.665,
+  "hash": "5734cb75e552953e"
+ },
+ "school|f|80": {
+  "dur": 0.845,
+  "hash": "cc9c48a2237280fc"
+ },
+ "school|m|100": {
+  "dur": 0.733,
+  "hash": "412919eee238d7c6"
+ },
+ "school|m|80": {
+  "dur": 0.913,
+  "hash": "6b18279b311f0a90"
+ },
+ "seat|f|100": {
+  "dur": 0.582,
+  "hash": "0d685b4862fbcf3a"
+ },
+ "seat|f|80": {
+  "dur": 0.691,
+  "hash": "1bbfd159c5784538"
+ },
+ "seat|m|100": {
+  "dur": 0.651,
+  "hash": "ea42207d25bc8582"
+ },
+ "seat|m|80": {
+  "dur": 0.813,
+  "hash": "b35b1d776d655f39"
+ },
+ "seed|f|100": {
+  "dur": 0.583,
+  "hash": "ac12cef85cb4e7e6"
+ },
+ "seed|f|80": {
+  "dur": 0.688,
+  "hash": "ae52c000b922540c"
+ },
+ "seed|m|100": {
+  "dur": 0.701,
+  "hash": "af86aff32145b95d"
+ },
+ "seed|m|80": {
+  "dur": 0.819,
+  "hash": "8028ef00ddafbff3"
+ },
+ "ski|f|100": {
+  "dur": 0.62,
+  "hash": "512534369f7a71e9"
+ },
+ "ski|f|80": {
+  "dur": 0.767,
+  "hash": "30742f281a569490"
+ },
+ "ski|m|100": {
+  "dur": 0.683,
+  "hash": "7d4708eb7fb7ea80"
+ },
+ "ski|m|80": {
+  "dur": 0.804,
+  "hash": "408b4d899151e7be"
+ },
+ "soon-the-gate-opened-and-f1c9a3|f|100": {
+  "dur": 2.7,
+  "hash": "32b51073a4ba4faf"
+ },
+ "soon-the-gate-opened-and-f1c9a3|f|80": {
+  "dur": 3.332,
+  "hash": "0901ad86156c1568"
+ },
+ "soon-the-gate-opened-and-f1c9a3|m|100": {
+  "dur": 2.96,
+  "hash": "f16b8428d0f6cda6"
+ },
+ "soon-the-gate-opened-and-f1c9a3|m|80": {
+  "dur": 3.676,
+  "hash": "c010328deaf9c1e4"
+ },
+ "spin|f|100": {
+  "dur": 0.611,
+  "hash": "cd1befb9b2a4e774"
+ },
+ "spin|f|80": {
+  "dur": 0.773,
+  "hash": "5ec4c0a926cdca65"
+ },
+ "spin|m|100": {
+  "dur": 0.72,
+  "hash": "3d6c2945af6042d8"
+ },
+ "spin|m|80": {
+  "dur": 0.925,
+  "hash": "b904e91c0fb39fe6"
+ },
+ "spot|f|100": {
+  "dur": 0.655,
+  "hash": "92098dcbecf4b4f7"
+ },
+ "spot|f|80": {
+  "dur": 0.815,
+  "hash": "1a9135a7d4153a25"
+ },
+ "spot|m|100": {
+  "dur": 0.696,
+  "hash": "b3ea25a828b77bf9"
+ },
+ "spot|m|80": {
+  "dur": 0.865,
+  "hash": "be0baca8ca53c4ba"
+ },
+ "spy|f|100": {
+  "dur": 0.629,
+  "hash": "7622203a0df022fe"
+ },
+ "spy|f|80": {
+  "dur": 0.771,
+  "hash": "b6000ad5c0e18daa"
+ },
+ "spy|m|100": {
+  "dur": 0.688,
+  "hash": "b55868db26d64c2c"
+ },
+ "spy|m|80": {
+  "dur": 0.835,
+  "hash": "d2cf920fd2a5daf6"
+ },
+ "stan-took-the-stairs-to-a8a8f3|f|100": {
+  "dur": 1.755,
+  "hash": "4fe5ade82c2d0760"
+ },
+ "stan-took-the-stairs-to-a8a8f3|f|80": {
+  "dur": 2.175,
+  "hash": "dc0537a9153edff7"
+ },
+ "stan-took-the-stairs-to-a8a8f3|m|100": {
+  "dur": 1.863,
+  "hash": "a5f0f4249a90090c"
+ },
+ "stan-took-the-stairs-to-a8a8f3|m|80": {
+  "dur": 2.429,
+  "hash": "776d6474676b1321"
+ },
+ "star|f|100": {
+  "dur": 0.606,
+  "hash": "6ae9d77ab796cddd"
+ },
+ "star|f|80": {
+  "dur": 0.78,
+  "hash": "13b5c7ce41ddc4af"
+ },
+ "star|m|100": {
+  "dur": 0.732,
+  "hash": "c6acd3d7f179bca6"
+ },
+ "star|m|80": {
+  "dur": 0.918,
+  "hash": "2458c8fa6daf76a5"
+ },
+ "stick|f|100": {
+  "dur": 0.59,
+  "hash": "baae05c72e0ffe8a"
+ },
+ "stick|f|80": {
+  "dur": 0.735,
+  "hash": "8094b03db381a8a4"
+ },
+ "stick|m|100": {
+  "dur": 0.602,
+  "hash": "b64fb4d275413bac"
+ },
+ "stick|m|80": {
+  "dur": 0.766,
+  "hash": "090a655f302bbb8e"
+ },
+ "stop-at-the-big-black-6e0b5d|f|100": {
+  "dur": 1.635,
+  "hash": "4801ef21e0e4f92a"
+ },
+ "stop-at-the-big-black-6e0b5d|f|80": {
+  "dur": 1.96,
+  "hash": "bf778896cac78858"
+ },
+ "stop-at-the-big-black-6e0b5d|m|100": {
+  "dur": 1.685,
+  "hash": "39f5b04c4bb965ca"
+ },
+ "stop-at-the-big-black-6e0b5d|m|80": {
+  "dur": 2.166,
+  "hash": "660b6a523f1dcf06"
+ },
+ "stop-at-the-bus-stop|f|100": {
+  "dur": 1.279,
+  "hash": "409f7a81ae49426a"
+ },
+ "stop-at-the-bus-stop|f|80": {
+  "dur": 1.486,
+  "hash": "c388d4838122802f"
+ },
+ "stop-at-the-bus-stop|m|100": {
+  "dur": 1.333,
+  "hash": "4ad9b420a962fa30"
+ },
+ "stop-at-the-bus-stop|m|80": {
+  "dur": 1.74,
+  "hash": "f4b43660d7bea459"
+ },
+ "stop|f|100": {
+  "dur": 0.604,
+  "hash": "c558be69f60f8f34"
+ },
+ "stop|f|80": {
+  "dur": 0.765,
+  "hash": "27007486a2631069"
+ },
+ "stop|m|100": {
+  "dur": 0.695,
+  "hash": "3056c2e98ff8ab6f"
+ },
+ "stop|m|80": {
+  "dur": 0.838,
+  "hash": "9b1c391273594a96"
+ },
+ "take-the-blue-cup-back-f9bd9e|f|100": {
+  "dur": 1.923,
+  "hash": "7c75218a876afbbb"
+ },
+ "take-the-blue-cup-back-f9bd9e|f|80": {
+  "dur": 2.392,
+  "hash": "6b67e39e850328c9"
+ },
+ "take-the-blue-cup-back-f9bd9e|m|100": {
+  "dur": 2.046,
+  "hash": "dcc86acaee7a5a2e"
+ },
+ "take-the-blue-cup-back-f9bd9e|m|80": {
+  "dur": 2.637,
+  "hash": "22bcf294ea948257"
+ },
+ "take-the-gold-key-to-the-c5db07|f|100": {
+  "dur": 2.028,
+  "hash": "71af778f4cb9a45b"
+ },
+ "take-the-gold-key-to-the-c5db07|f|80": {
+  "dur": 2.415,
+  "hash": "4e0fae38b0c733ac"
+ },
+ "take-the-gold-key-to-the-c5db07|m|100": {
+  "dur": 2.172,
+  "hash": "d5d50f584cdbbaed"
+ },
+ "take-the-gold-key-to-the-c5db07|m|80": {
+  "dur": 2.888,
+  "hash": "ad074ae5a2186b4c"
+ },
+ "take-the-ticket-to-the-64743b|f|100": {
+  "dur": 1.706,
+  "hash": "011fc1d2e53780ac"
+ },
+ "take-the-ticket-to-the-64743b|f|80": {
+  "dur": 2.19,
+  "hash": "5d079387d54810c9"
+ },
+ "take-the-ticket-to-the-64743b|m|100": {
+  "dur": 1.863,
+  "hash": "f41f8fef736f369f"
+ },
+ "take-the-ticket-to-the-64743b|m|80": {
+  "dur": 2.377,
+  "hash": "1ac5bc3f33b99b04"
+ },
+ "tar|f|100": {
+  "dur": 0.581,
+  "hash": "89c3953d25441de2"
+ },
+ "tar|f|80": {
+  "dur": 0.705,
+  "hash": "d591b316352fa6d0"
+ },
+ "tar|m|100": {
+  "dur": 0.656,
+  "hash": "68c6a3c7c5dd0562"
+ },
+ "tar|m|80": {
+  "dur": 0.872,
+  "hash": "ac61a0642bb99cf2"
+ },
+ "ten|f|100": {
+  "dur": 0.576,
+  "hash": "766ea18007004f7d"
+ },
+ "ten|f|80": {
+  "dur": 0.712,
+  "hash": "182909a8ca6168f9"
+ },
+ "ten|m|100": {
+  "dur": 0.581,
+  "hash": "ec9852e8922e10ff"
+ },
+ "ten|m|80": {
+  "dur": 0.781,
+  "hash": "87f770842b8d02b3"
+ },
+ "the-class-left-a-glass-e75aac|f|100": {
+  "dur": 1.989,
+  "hash": "d698bb6ed73d4757"
+ },
+ "the-class-left-a-glass-e75aac|f|80": {
+  "dur": 2.511,
+  "hash": "abb443c59b08053f"
+ },
+ "the-class-left-a-glass-e75aac|m|100": {
+  "dur": 2.206,
+  "hash": "17b00446073de6b2"
+ },
+ "the-class-left-a-glass-e75aac|m|80": {
+  "dur": 2.842,
+  "hash": "c4bedced619f8af8"
+ },
+ "the-cold-wind-moved-the-e3056b|f|100": {
+  "dur": 1.952,
+  "hash": "f994653ff8fa9266"
+ },
+ "the-cold-wind-moved-the-e3056b|f|80": {
+  "dur": 2.472,
+  "hash": "524b1b56ed1cba19"
+ },
+ "the-cold-wind-moved-the-e3056b|m|100": {
+  "dur": 2.194,
+  "hash": "2aaba7254e55de3a"
+ },
+ "the-cold-wind-moved-the-e3056b|m|80": {
+  "dur": 2.832,
+  "hash": "d2846beff30f9214"
+ },
+ "the-dog-belonged-to-the-a87bd6|f|100": {
+  "dur": 3.005,
+  "hash": "d1af5ff7c1383097"
+ },
+ "the-dog-belonged-to-the-a87bd6|f|80": {
+  "dur": 3.734,
+  "hash": "df729918010ba8b2"
+ },
+ "the-dog-belonged-to-the-a87bd6|m|100": {
+  "dur": 3.302,
+  "hash": "a0b8295962324f83"
+ },
+ "the-dog-belonged-to-the-a87bd6|m|80": {
+  "dur": 4.408,
+  "hash": "1e9a2196a09a9d52"
+ },
+ "the-girl-kept-a-cookie-104960|f|100": {
+  "dur": 1.895,
+  "hash": "ef597a15ed47635a"
+ },
+ "the-girl-kept-a-cookie-104960|f|80": {
+  "dur": 2.363,
+  "hash": "0aaafe42f3932e2a"
+ },
+ "the-girl-kept-a-cookie-104960|m|100": {
+  "dur": 1.98,
+  "hash": "7d7760b19ef52d8f"
+ },
+ "the-girl-kept-a-cookie-104960|m|80": {
+  "dur": 2.503,
+  "hash": "70fdedc2e37cbc46"
+ },
+ "the-log-is-by-the-lock|f|100": {
+  "dur": 1.389,
+  "hash": "844150a1397da78a"
+ },
+ "the-log-is-by-the-lock|f|80": {
+  "dur": 1.72,
+  "hash": "f50b7666c13ea42f"
+ },
+ "the-log-is-by-the-lock|m|100": {
+  "dur": 1.545,
+  "hash": "257fa28a6ff61969"
+ },
+ "the-log-is-by-the-lock|m|80": {
+  "dur": 2.053,
+  "hash": "2ed915c140980d20"
+ },
+ "the-pig-is-big-but-the-ab9223|f|100": {
+  "dur": 2.188,
+  "hash": "62fb955cc02a7aa3"
+ },
+ "the-pig-is-big-but-the-ab9223|f|80": {
+  "dur": 2.923,
+  "hash": "3e74727fc50dad64"
+ },
+ "the-pig-is-big-but-the-ab9223|m|100": {
+  "dur": 2.172,
+  "hash": "95a94d25cb1555b8"
+ },
+ "the-pig-is-big-but-the-ab9223|m|80": {
+  "dur": 3.011,
+  "hash": "45a67ab56a40cc9e"
+ },
+ "the-robe-and-the-rope-bd6013|f|100": {
+  "dur": 2.204,
+  "hash": "40ec92b82421c656"
+ },
+ "the-robe-and-the-rope-bd6013|f|80": {
+  "dur": 2.727,
+  "hash": "39afef5d83944d3f"
+ },
+ "the-robe-and-the-rope-bd6013|m|100": {
+  "dur": 2.44,
+  "hash": "2b01c8e4c4784571"
+ },
+ "the-robe-and-the-rope-bd6013|m|80": {
+  "dur": 3.225,
+  "hash": "3a29ea12459e6de9"
+ },
+ "the-small-boat-stopped-1cf6ed|f|100": {
+  "dur": 1.892,
+  "hash": "bce65417679b421d"
+ },
+ "the-small-boat-stopped-1cf6ed|f|80": {
+  "dur": 2.325,
+  "hash": "28a089125f579518"
+ },
+ "the-small-boat-stopped-1cf6ed|m|100": {
+  "dur": 2.045,
+  "hash": "fc4521ffa0c78ef0"
+ },
+ "the-small-boat-stopped-1cf6ed|m|80": {
+  "dur": 2.707,
+  "hash": "1bbf5896a42fd0aa"
+ },
+ "the-spy-bought-a-pie-at-9b27e0|f|100": {
+  "dur": 1.795,
+  "hash": "a6cb83be33ecb1b7"
+ },
+ "the-spy-bought-a-pie-at-9b27e0|f|80": {
+  "dur": 2.22,
+  "hash": "831e000c2fc6e3fe"
+ },
+ "the-spy-bought-a-pie-at-9b27e0|m|100": {
+  "dur": 1.954,
+  "hash": "16e465d97f32e1b7"
+ },
+ "the-spy-bought-a-pie-at-9b27e0|m|80": {
+  "dur": 2.468,
+  "hash": "91045dc79d01df80"
+ },
+ "the-tall-dog-waited-by-2799af|f|100": {
+  "dur": 2.023,
+  "hash": "ee379ec7d8080a10"
+ },
+ "the-tall-dog-waited-by-2799af|f|80": {
+  "dur": 2.684,
+  "hash": "70fcd7d088862aa3"
+ },
+ "the-tall-dog-waited-by-2799af|m|100": {
+  "dur": 2.457,
+  "hash": "2b8448148aec6d70"
+ },
+ "the-tall-dog-waited-by-2799af|m|80": {
+  "dur": 3.127,
+  "hash": "785e8b11105e0b04"
+ },
+ "the-top-of-the-gate|f|100": {
+  "dur": 1.085,
+  "hash": "dd8a7b7084ca5e7e"
+ },
+ "the-top-of-the-gate|f|80": {
+  "dur": 1.453,
+  "hash": "e9de6e8b2d361cf1"
+ },
+ "the-top-of-the-gate|m|100": {
+  "dur": 1.248,
+  "hash": "4e636cefab30cc77"
+ },
+ "the-top-of-the-gate|m|80": {
+  "dur": 1.583,
+  "hash": "db95f864b54c13d1"
+ },
+ "their-boat-was-still-by-fa6dbc|f|100": {
+  "dur": 1.67,
+  "hash": "3ec36d1187f90a7b"
+ },
+ "their-boat-was-still-by-fa6dbc|f|80": {
+  "dur": 2.113,
+  "hash": "1b79c8b4983626d0"
+ },
+ "their-boat-was-still-by-fa6dbc|m|100": {
+  "dur": 1.801,
+  "hash": "94c5dc5e9278ad7b"
+ },
+ "their-boat-was-still-by-fa6dbc|m|80": {
+  "dur": 2.404,
+  "hash": "e8f502f88a278ff1"
+ },
+ "ticket|f|100": {
+  "dur": 0.646,
+  "hash": "c4cc67c4c255a678"
+ },
+ "ticket|f|80": {
+  "dur": 0.859,
+  "hash": "d9213dcdb8fa4d85"
+ },
+ "ticket|m|100": {
+  "dur": 0.667,
+  "hash": "731147f066917f3a"
+ },
+ "ticket|m|80": {
+  "dur": 0.826,
+  "hash": "38a433ccad64046a"
+ },
+ "tick|f|100": {
+  "dur": 0.534,
+  "hash": "795705c6dc165607"
+ },
+ "tick|f|80": {
+  "dur": 0.665,
+  "hash": "1c468bb486a747a5"
+ },
+ "tick|m|100": {
+  "dur": 0.533,
+  "hash": "2eb5a3b18964ff49"
+ },
+ "tick|m|80": {
+  "dur": 0.681,
+  "hash": "be8e29097492d1b7"
+ },
+ "tie|f|100": {
+  "dur": 0.555,
+  "hash": "a64f23070b6599b7"
+ },
+ "tie|f|80": {
+  "dur": 0.684,
+  "hash": "50cd41583348df0e"
+ },
+ "tie|m|100": {
+  "dur": 0.637,
+  "hash": "de9e2ac9074aae03"
+ },
+ "tie|m|80": {
+  "dur": 0.819,
+  "hash": "ae46b3ace3492741"
+ },
+ "tim-put-a-stick-by-the-09e05b|f|100": {
+  "dur": 1.763,
+  "hash": "52e6e38e1ae1ac77"
+ },
+ "tim-put-a-stick-by-the-09e05b|f|80": {
+  "dur": 2.263,
+  "hash": "b2d8909845e9e6e4"
+ },
+ "tim-put-a-stick-by-the-09e05b|m|100": {
+  "dur": 1.969,
+  "hash": "ad7192151139c779"
+ },
+ "tim-put-a-stick-by-the-09e05b|m|80": {
+  "dur": 2.474,
+  "hash": "4f691e796f5fe639"
+ },
+ "time|f|100": {
+  "dur": 0.599,
+  "hash": "4be78060352b9327"
+ },
+ "time|f|80": {
+  "dur": 0.808,
+  "hash": "6d52d0081888d0a6"
+ },
+ "time|m|100": {
+  "dur": 0.698,
+  "hash": "635ce2bf49fda12d"
+ },
+ "time|m|80": {
+  "dur": 0.838,
+  "hash": "6b3ba90bf039f221"
+ },
+ "tip|f|100": {
+  "dur": 0.519,
+  "hash": "6d6e2ae0ba65b169"
+ },
+ "tip|f|80": {
+  "dur": 0.672,
+  "hash": "1973dc39ecbef961"
+ },
+ "tip|m|100": {
+  "dur": 0.533,
+  "hash": "bbe66248d58c048e"
+ },
+ "tip|m|80": {
+  "dur": 0.651,
+  "hash": "aaa03feccb1b1c6e"
+ },
+ "today|f|100": {
+  "dur": 0.607,
+  "hash": "96a215f766c363c0"
+ },
+ "today|f|80": {
+  "dur": 0.795,
+  "hash": "ab6121200fffc886"
+ },
+ "today|m|100": {
+  "dur": 0.676,
+  "hash": "a6cbdb78c841baee"
+ },
+ "today|m|80": {
+  "dur": 0.927,
+  "hash": "62d46a74b9718c80"
+ },
+ "together|f|100": {
+  "dur": 0.683,
+  "hash": "f1b6365fa146d0c6"
+ },
+ "together|f|80": {
+  "dur": 0.941,
+  "hash": "5abd053b19e6c931"
+ },
+ "together|m|100": {
+  "dur": 0.734,
+  "hash": "86c1f21fc86599fc"
+ },
+ "together|m|80": {
+  "dur": 1.001,
+  "hash": "d6bab5cfcce8d5ea"
+ },
+ "tomato|f|100": {
+  "dur": 0.691,
+  "hash": "9b9c2c0a1f8c57f5"
+ },
+ "tomato|f|80": {
+  "dur": 0.888,
+  "hash": "3c3685bcc294ee86"
+ },
+ "tomato|m|100": {
+  "dur": 0.783,
+  "hash": "8ea8970424dc7f1b"
+ },
+ "tomato|m|80": {
+  "dur": 1.039,
+  "hash": "d214cc3c6e83bed1"
+ },
+ "top|f|100": {
+  "dur": 0.521,
+  "hash": "1baf20e1c8f437bc"
+ },
+ "top|f|80": {
+  "dur": 0.656,
+  "hash": "f026a0c777c6f630"
+ },
+ "top|m|100": {
+  "dur": 0.585,
+  "hash": "715dc451dca8497f"
+ },
+ "top|m|80": {
+  "dur": 0.69,
+  "hash": "46c670e479ec0b72"
+ },
+ "town|f|100": {
+  "dur": 0.594,
+  "hash": "0f8673b7ca907dea"
+ },
+ "town|f|80": {
+  "dur": 0.726,
+  "hash": "01f682a313e4063a"
+ },
+ "town|m|100": {
+  "dur": 0.611,
+  "hash": "75cab1beb0fdc5af"
+ },
+ "town|m|80": {
+  "dur": 0.813,
+  "hash": "b39d0ab830db1ec0"
+ },
+ "train|f|100": {
+  "dur": 0.608,
+  "hash": "75928784ef641e68"
+ },
+ "train|f|80": {
+  "dur": 0.755,
+  "hash": "2ef6d0ad781d4a79"
+ },
+ "train|m|100": {
+  "dur": 0.66,
+  "hash": "eaa5a6195c2081bb"
+ },
+ "train|m|80": {
+  "dur": 0.876,
+  "hash": "6cd707870fb44bc2"
+ },
+ "tree|f|100": {
+  "dur": 0.588,
+  "hash": "42c6aac273974ff1"
+ },
+ "tree|f|80": {
+  "dur": 0.732,
+  "hash": "361b46b3df3ff805"
+ },
+ "tree|m|100": {
+  "dur": 0.606,
+  "hash": "9f5a140eee4a8af8"
+ },
+ "tree|m|80": {
+  "dur": 0.805,
+  "hash": "5890ea8443fb4cb0"
+ },
+ "true|f|100": {
+  "dur": 0.585,
+  "hash": "3a32b88b1994db21"
+ },
+ "true|f|80": {
+  "dur": 0.757,
+  "hash": "ac0044c5a8ccd039"
+ },
+ "true|m|100": {
+  "dur": 0.694,
+  "hash": "784edf86747e70ed"
+ },
+ "true|m|80": {
+  "dur": 0.82,
+  "hash": "aa869ae667c7c827"
+ },
+ "try-to-drive-when-the-9ccc89|f|100": {
+  "dur": 1.857,
+  "hash": "b26c7781fbd7fdee"
+ },
+ "try-to-drive-when-the-9ccc89|f|80": {
+  "dur": 2.375,
+  "hash": "2fcdc67804c3a1f9"
+ },
+ "try-to-drive-when-the-9ccc89|m|100": {
+  "dur": 2.157,
+  "hash": "fed35e26ef2a8376"
+ },
+ "try-to-drive-when-the-9ccc89|m|80": {
+  "dur": 2.694,
+  "hash": "606041d19a3022a5"
+ },
+ "try|f|100": {
+  "dur": 0.592,
+  "hash": "36acde6ca564223c"
+ },
+ "try|f|80": {
+  "dur": 0.764,
+  "hash": "57655122ac3e7937"
+ },
+ "try|m|100": {
+  "dur": 0.657,
+  "hash": "62e87752bd6a54eb"
+ },
+ "try|m|80": {
+  "dur": 0.788,
+  "hash": "4d6a1d1ea86c1bc7"
+ },
+ "while-they-waited-kate-ea862e|f|100": {
+  "dur": 3.04,
+  "hash": "c0d9678db4aa2006"
+ },
+ "while-they-waited-kate-ea862e|f|80": {
+  "dur": 3.887,
+  "hash": "d1e98c89dfc17396"
+ },
+ "while-they-waited-kate-ea862e|m|100": {
+  "dur": 3.516,
+  "hash": "ef7a86a7b3bc170e"
+ },
+ "while-they-waited-kate-ea862e|m|80": {
+  "dur": 4.572,
+  "hash": "1b52beb48b4bf39f"
+ },
+ "write-it-down-before-you-081a4c|f|100": {
+  "dur": 1.575,
+  "hash": "28253d69f85d4758"
+ },
+ "write-it-down-before-you-081a4c|f|80": {
+  "dur": 1.924,
+  "hash": "10fd4b52a39a3f78"
+ },
+ "write-it-down-before-you-081a4c|m|100": {
+  "dur": 1.815,
+  "hash": "c086e9bc37bf5978"
+ },
+ "write-it-down-before-you-081a4c|m|80": {
+  "dur": 2.27,
+  "hash": "074364d283027e70"
+ },
+ "write|f|100": {
+  "dur": 0.585,
+  "hash": "69573bf48a902090"
+ },
+ "write|f|80": {
+  "dur": 0.753,
+  "hash": "e208ccb1662f9254"
+ },
+ "write|m|100": {
+  "dur": 0.621,
+  "hash": "449bd85e9100d8eb"
+ },
+ "write|m|80": {
+  "dur": 0.821,
+  "hash": "9210c215212019b1"
+ }
+}

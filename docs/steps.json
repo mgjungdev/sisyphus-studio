@@ -1,0 +1,369 @@
+{
+ "waves": [
+  {
+   "name": "A",
+   "label": "파일럿 A · Lesson 02·03 화면과 모범 음성"
+  },
+  {
+   "name": "B",
+   "label": "파일럿 B · 녹음·진단·엄격 채점"
+  },
+  {
+   "name": "C",
+   "label": "나머지 발음 레슨 (01, 04–16, 참고 3편)"
+  }
+ ],
+ "steps": [
+  {
+   "code": "A-REPO",
+   "wave": "A",
+   "title": "GitHub 저장소 만들기",
+   "task": "사용자가 https://github.com/new 에서 공개 저장소 mgjungdev/sisyphus-studio 를 빈 상태(README·.gitignore·license 없음)로 만들고, Settings → Pages → Build and deployment → Source를 'GitHub Actions'로 둔다. 끝나면 이 단계를 확인한다.",
+   "needs": [],
+   "model": "opus",
+   "kind": "user"
+  },
+  {
+   "code": "A-00",
+   "wave": "A",
+   "title": "저장소 뼈대·QA 도구",
+   "task": "python -m venv .venv 로 가상환경을 만들고 requirements.txt(kokoro-onnx, soundfile, numpy, imageio-ffmpeg, playwright, cmudict)를 설치한 뒤 `.venv\\Scripts\\python.exe -m playwright install chromium webkit`. .gitignore(.venv/, tools/models/, logs/, tests/fixtures/calib/, __pycache__/). C:\\Users\\mingo\\sisyphus\\library\\site\\css\\tokens.css·base.css를 site/css/로 복사해 시작점으로 삼고, site/index.html에 앱 셸(제목 Sisyphus Studio, viewport-fit=cover, 라이트/다크)을 둔다. .github/workflows/pages.yml: library의 것을 본떠 빌드 없이 site/를 그대로 업로드·배포한다(생성물은 커밋한다). tools/qa.py: C:\\Users\\mingo\\sisyphus\\library\\tools\\graph_qa.py를 본떠, 한 명령 안에서 site/를 빈 포트로 서빙하고 Playwright로 연다. `--smoke`(해시 목록을 desktop chromium 1280×800, iPhone 13 webkit 에뮬레이션, Galaxy S24 chromium 에뮬레이션에서 열어 콘솔·페이지 오류 0과 가로 스크롤 없음 확인), `--shot <hash> [--device desktop|iphone|galaxy] [--dark] [--out name]`(logs/shots/), `--eval <hash> <js>`, `--base <url>`(배포 사이트 대상). 해시 목록은 site/data/routes.json이 있으면 그것, 없으면 ['#/'].",
+   "needs": [],
+   "model": "sonnet",
+   "checks": [
+    ".venv\\Scripts\\python.exe tools/qa.py --smoke"
+   ],
+   "files": [
+    "requirements.txt",
+    "tools/qa.py",
+    ".github/workflows/pages.yml",
+    "site/index.html"
+   ]
+  },
+  {
+   "code": "A-01",
+   "wave": "A",
+   "title": "Lesson 02·03 원문 가져오기",
+   "task": "Notion MCP(notion-fetch)로 Reading Studio 메인(3e08b09554638137accac24318223a6b), Lesson 02(3e08b09554638165ab4ece4798424039), Lesson 03(3e08b0955463813ab30ccf73dd098cfe)을 받아 content/reading/_course.md, lesson02.md, lesson03.md에 Notion 마크다운 그대로 저장한다. 독자에게 하는 메타 문구는 뺀다: 'Source connection' 줄, 맨 끝 Reading Studio 멘션, 메인의 'Sound models: No audio recordings…' 줄, 'About the material' 절, 'For teachers' 절, 'Not sure where to start?'의 Lesson 16 안내(아직 없는 레슨). 이미지는 notion-get-file-download-urls로 받아 content/img/에 저장하고(실패하면 C:\\Users\\mingo\\sisyphus\\reading_lessons_pdf\\build\\img\\ 에서 같은 이름을 복사), 마크다운의 이미지 경로를 img/<파일명>으로 바꾼다. C:\\Users\\mingo\\sisyphus\\reading_lessons_pdf\\src\\lesson02.md·lesson03.md와 비교해 차이를 LOG에 한 줄로 요약한다.",
+   "needs": [
+    "A-00"
+   ],
+   "model": "sonnet",
+   "files": [
+    "content/reading/_course.md",
+    "content/reading/lesson02.md",
+    "content/reading/lesson03.md"
+   ]
+  },
+  {
+   "code": "A-02",
+   "wave": "A",
+   "title": "build.py: 레슨·카드 데이터",
+   "task": "tools/build.py: content/reading/*.md(Notion enhanced markdown: callout, table, details, 색 heading, 이미지, 체크리스트, 인용 지문)를 site/data/reading/index.json(과정 소개 + 레슨 목록)과 site/data/reading/lessonNN.json으로 만들고 content/img/를 site/img/로 복사한다. 레슨 JSON = {id, title, icon, goal, blocks[](레슨 탭용: 설명·표·그림·드릴·🇰🇷 팁·Check yourself; 표의 영어 단어·구 셀에는 tts id), decks[](연습 탭용)}. 덱 순서는 플랜대로 단어 대비(A/B 열 표의 각 행 = pair 카드) → 구(phrase) → Warm-up → PRACTICE A–D → Short reading(지문을 문장 단위로 쪼개고 표시본도 같은 경계로 맞춘다). 카드 = {id(텍스트 기반 안정 id), deck, type: word|pair|phrase|sentence, plain, marked, words[{text, syllables, stress[]}], beats, tune, focus}. 박자·강세는 표시본(CAPITALS, -, |, ‿, ↘↗)에서, 표시 없는 다음절 단어의 음절 수는 cmudict에서. 한국어 셀(🇰🇷 열)은 TTS 대상이 아니다. site/data/tts.json = [{id, lesson, text}] 전체 목록, site/data/routes.json = QA용 해시 목록. tools/test_build.py: 원문에서 독립적으로 센 문장 details 수·대비표 행 수와 카드 수가 같은지, id가 유일한지, 모든 카드의 beats가 words 음절 합과 맞는지 검사.",
+   "needs": [
+    "A-01"
+   ],
+   "model": "opus",
+   "checks": [
+    ".venv\\Scripts\\python.exe tools/build.py",
+    ".venv\\Scripts\\python.exe tools/test_build.py"
+   ],
+   "files": [
+    "tools/build.py",
+    "tools/test_build.py",
+    "site/data/reading/lesson02.json",
+    "site/data/reading/lesson03.json",
+    "site/data/tts.json"
+   ]
+  },
+  {
+   "code": "A-03",
+   "wave": "A",
+   "title": "Kokoro TTS 생성",
+   "task": "tools/tts.py: kokoro-onnx로 site/data/tts.json의 모든 항목을 음성 af_heart(여)·am_michael(남) × 속도 1.0·0.8로 합성해 AAC 48kbps mono .m4a로 저장한다(imageio-ffmpeg의 ffmpeg 사용). 모델 파일(kokoro-v1.0.onnx, voices-v1.0.bin)은 kokoro-onnx GitHub 릴리스에서 tools/models/로 받는다. 경로 site/audio/<lesson>/<id>.<f|m>.<100|80>.m4a, 레슨별 site/audio/<lesson>/manifest.json {id: {hash, dur}}. hash = (text, voice, speed, 모델 버전): 바뀐 것만 다시 만든다. 앞뒤 무음은 50ms만 남긴다. `--check`: 모든 id에 파일 4개, 길이 0.3–15초, 무음 아님(RMS), manifest와 일치. `--only <lesson>` 옵션. 고정 단어(bed, spin, stop, think, very)의 길이·피크를 LOG에 남긴다.",
+   "needs": [
+    "A-02"
+   ],
+   "model": "sonnet",
+   "checks": [
+    ".venv\\Scripts\\python.exe tools/tts.py --check"
+   ],
+   "files": [
+    "tools/tts.py",
+    "site/audio/lesson02/manifest.json"
+   ]
+  },
+  {
+   "code": "A-04",
+   "wave": "A",
+   "title": "앱 셸·레슨 탭",
+   "task": "site/js/: router(#/ 과정 홈, #/reading/NN/lesson, #/reading/NN/practice, 상단 탭 레슨|연습), player.js(모범 음성 재생 공용 모듈: 여/남, 느리게 토글 — 이 두 설정만 localStorage에 둔다; 파일이 없으면 버튼 비활성; iOS에서 첫 탭 안에서 재생 시작), lesson.js(blocks 렌더: callout 색, 🇰🇷 노란 상자, 표는 600px 이하에서 행 단위 카드로, 그림, details, 체크리스트는 저장 없이). 영어 단어·구 셀을 탭하면 재생. 과정 홈은 _course 내용과 레슨 목록(지금은 02·03). 디자인은 frontend-design 스킬을 참고해 완성도 있게, library의 토큰과 어울리게, 라이트/다크, 터치 영역 44px, safe-area. tools/qa.py로 desktop·iphone·galaxy × 라이트/다크 스크린샷(logs/shots/A-04-*)을 찍어 스스로 다듬는다.",
+   "needs": [
+    "A-02"
+   ],
+   "model": "opus",
+   "checks": [
+    ".venv\\Scripts\\python.exe tools/qa.py --smoke"
+   ],
+   "files": [
+    "site/js/router.js",
+    "site/js/player.js",
+    "site/js/lesson.js"
+   ]
+  },
+  {
+   "code": "A-05",
+   "wave": "A",
+   "title": "연습 탭: 카드 덱",
+   "task": "site/js/deck.js(+css): 덱 목록(이름, 카드 수) → 카드 한 장 보기. 앞면: 평문, ▶ 모범(player.js), 강세 보기 버튼(표시본 + ●· 박자 줄 + ↘↗). pair 카드는 두 단어를 나란히, ▶가 A–B–A 순서로 재생. 넘기기: 포인터 이벤트 스와이프(라이브러리 없이), 하단 고정 바(이전·재생·다음, safe-area), PC는 ←/→, Space. 진행 표시 3/8은 메모리에만. 녹음 버튼은 아직 넣지 않는다(B-03). qa로 세 기기 스크린샷(logs/shots/A-05-*)과 스와이프·키보드 동작을 --eval로 확인하고 다듬는다.",
+   "needs": [
+    "A-04"
+   ],
+   "model": "opus",
+   "checks": [
+    ".venv\\Scripts\\python.exe tools/qa.py --smoke"
+   ],
+   "files": [
+    "site/js/deck.js"
+   ]
+  },
+  {
+   "code": "A-06",
+   "wave": "A",
+   "title": "PWA·기기 QA",
+   "task": "build.py가 site/sw.js의 파일 목록과 VERSION을 생성하게 한다(앱 셸·데이터 프리캐시, 오디오는 재생할 때 캐시). manifest.webmanifest, 아이콘(새로 만든 SVG → 192/512 PNG), apple-touch-icon, theme-color. iPhone(webkit)·Galaxy(chromium) 에뮬레이션에서 모든 라우트를 --smoke하고, --eval로 가로 스크롤 없음, 터치 영역 ≥44px, 오디오 canPlayType('audio/mp4') 확인(Playwright chromium은 AAC가 없을 수 있으니 webkit에서 재생 확인). 첫 화면 전송량(오디오 제외) ≤ 300KB. 문제를 고친다.",
+   "needs": [
+    "A-03",
+    "A-05"
+   ],
+   "model": "opus",
+   "checks": [
+    ".venv\\Scripts\\python.exe tools/qa.py --smoke",
+    ".venv\\Scripts\\python.exe tools/tts.py --check"
+   ],
+   "files": [
+    "site/sw.js",
+    "site/manifest.webmanifest"
+   ]
+  },
+  {
+   "code": "A-07",
+   "wave": "A",
+   "title": "커밋·배포 1",
+   "task": "큰 파일(>40MB)·.venv·모델 원본이 들어가지 않는지 확인하고 커밋한다(메시지 끝에 'Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>'). origin = https://github.com/mgjungdev/sisyphus-studio.git 로 두고 main을 push한다(library 저장소와 같은 자격 증명). Pages 워크플로가 끝날 때까지 https://mgjungdev.github.io/sisyphus-studio/ 를 최대 15분 기다리고(sw.js VERSION 일치), `tools/qa.py --base https://mgjungdev.github.io/sisyphus-studio/ --smoke`. LOG에 배포 링크를 남긴다.",
+   "needs": [
+    "A-06",
+    "A-REPO"
+   ],
+   "model": "sonnet"
+  },
+  {
+   "code": "A-OK",
+   "wave": "A",
+   "title": "승인 1: 내용·화면·카드·음성",
+   "task": "https://mgjungdev.github.io/sisyphus-studio/#/reading/02/lesson , #/reading/02/practice , Lesson 03을 PC·iPhone Safari·갤럭시(Samsung Internet, Chrome)에서 열어 내용, 레슨 탭, 연습 카드, 모범 음성 품질을 확인한다. 고칠 점은 세션에서 말하면 해당 단계를 reopen한다.",
+   "needs": [
+    "A-07"
+   ],
+   "model": "opus",
+   "kind": "user"
+  },
+  {
+   "code": "B-00",
+   "wave": "B",
+   "title": "채점 인터페이스·보정 세트",
+   "task": "docs/SCORING.md: Worker 메시지 API(init·모델 진행률, score 요청 {cardId, pcm Float32 16k}), 결과 스키마 {score, pass, words[{text, status ok|doubt|error, score, phones[{expected, heard, status, t0, t1}], issues[{kind sub|ins|del|vot|length|flap|beats|stress|tune, ko}]}], beats{expected, got}, pitch}, 플랜의 엄격 채점식과 목표치. build.py에 기대 음소열(Kokoro와 같은 espeak en-us G2P, kokoro-onnx 내부 phonemizer 사용)을 words[].phones로 추가. tools/variants.py: L02·L03 카드마다 정답(남·여)과 한국식 오답 변형(desk→desku 삽입, stop→suh-top 분리, p↔f, b↔v, r↔l, th→s/d, i↔ɪ, æ↔ɛ, 어말 자음 탈락)을 Kokoro로 합성하고, 오류 위치(단어·음소·종류) 라벨과 함께 tests/fixtures/calib/에 저장. 무음·잡음·다른 문장 샘플도. tests/fixtures/results/*.json: UI 개발용 예시 결과. tests/score.test.js 골격(엔진이 없으면 --dry로 목표치 표만 출력). `variants.py --check`: 라벨·파일 일치.",
+   "needs": [
+    "A-OK"
+   ],
+   "model": "opus",
+   "checks": [
+    ".venv\\Scripts\\python.exe tools/build.py",
+    ".venv\\Scripts\\python.exe tools/variants.py --check"
+   ],
+   "files": [
+    "docs/SCORING.md",
+    "tools/variants.py",
+    "tests/score.test.js"
+   ]
+  },
+  {
+   "code": "B-01",
+   "wave": "B",
+   "title": "녹음기·신호 측정기",
+   "task": "site/js/recorder.js: getUserMedia({echoCancellation:false, noiseSuppression:false, autoGainControl:false}), 탭 안에서 AudioContext.resume, AudioWorklet로 PCM 수집, 16k 리샘플, 최대 15초, VAD로 앞뒤 무음 제거, 끝나면 마이크 트랙 정지·버퍼 0으로 덮기. 블루투스·저샘플레이트 입력 감지. site/js/worker/signal.js(브라우저 Worker와 Node 양쪽에서 동작하는 순수 JS): 음절핵 박자 검출, 음절별 돋들림(강세), YIN F0 → 화자 중앙값 기준 반음, 억양 방향, VOT, 모음 길이 비율, 탄설음 검출(음소 구간이 주어지면 그 안에서). tests/signal.test.js: 보정 세트 정답에서 박자 오차 ±1, 삽입 변형에서 +1박 검출, pin/spin VOT 차이 검출.",
+   "needs": [
+    "B-00"
+   ],
+   "model": "opus",
+   "checks": [
+    "node tests/signal.test.js"
+   ],
+   "files": [
+    "site/js/recorder.js",
+    "site/js/worker/signal.js"
+   ]
+  },
+  {
+   "code": "B-02",
+   "wave": "B",
+   "title": "음소 모델 선정·경량화",
+   "task": "HF의 공개 영어 음소 CTC 모델(wav2vec2/HuBERT 계열, espeak·TIMIT·gruut 음소)을 조사해 후보 3–4개를 고른다. .venv에 CPU용 torch·transformers·optimum·onnxruntime을 설치해 ONNX로 내보내고 int8/int4(MatMulNBits)·레이어 축소로 50MB 이하로 줄인다. 보정 세트에서 음소 오류율, 오답 위치 검출률, onnxruntime-node 단일 스레드 지연(5초 음성, 이 PC 기준 ≤1초 = 중급 폰 ≈3초 목표)을 표로 비교해 docs/MODEL.md에 남긴다. 모델 음소 ↔ build의 espeak IPA 대응표(site/models/phones.json). 기준을 맞춘 모델을 site/models/phoneme.onnx로 둔다. tests/model.test.js: 크기 ≤50MB, 정답 세트 음소 오류율 기준. 어느 후보도 기준을 못 맞추면 docs/MODEL.md에 선택지(L2-ARCTIC로 소형 모델 미세조정 — 사용자 GPU/Kaggle 필요, 또는 Azure 유료)를 정리하고 멈춘다(사용자 결정).",
+   "needs": [
+    "B-00"
+   ],
+   "model": "opus",
+   "checks": [
+    "node tests/model.test.js"
+   ],
+   "files": [
+    "docs/MODEL.md",
+    "site/models/phoneme.onnx",
+    "site/models/phones.json"
+   ]
+  },
+  {
+   "code": "B-03",
+   "wave": "B",
+   "title": "진단 UI",
+   "task": "연습 카드에 ● 녹음(탭으로 시작/정지, 레벨 미터, 15초 제한)과 진단 화면을 붙인다. 마이크 권한 거부 시 브라우저별 안내(iOS 설정, Samsung Internet, Chrome), 첫 사용 때 모델 크기 안내·동의·진행률. 결과: 단어 밑줄 정확/의심/오류 색, 단어 탭 → 음소 칩과 '이렇게 들렸어요 / 이래야 해요', 모범 음성의 그 구간 재생(단어 시간은 B-04의 기준 정렬 데이터, 지금은 fixture), 박자 줄 기대 vs 실제, 작은 피치 곡선, 엄격 점수와 통과 여부. 개발용 ?fixture=<name>으로 tests/fixtures/results/를 그려 본다. 다시 녹음하면 이전 결과는 지운다. 세 기기 스크린샷(logs/shots/B-03-*)으로 다듬는다.",
+   "needs": [
+    "B-00"
+   ],
+   "model": "opus",
+   "checks": [
+    ".venv\\Scripts\\python.exe tools/qa.py --smoke"
+   ],
+   "files": [
+    "site/js/diagnose.js"
+   ]
+  },
+  {
+   "code": "B-04",
+   "wave": "B",
+   "title": "채점 엔진 결합",
+   "task": "site/js/worker/score.js: onnxruntime-web(site/vendor/ort/, WASM SIMD 기본, 가능하면 멀티스레드, WebGPU는 감지될 때만)로 phoneme.onnx 실행, CTC 강제 정렬(Viterbi)·GOP, 자유 디코딩 + 편집거리 정렬로 대치/삽입/누락 분류, signal.js 측정을 음소 구간에 적용, SCORING.md의 엄격 결합식. sw.js에 COOP/COEP 헤더 주입(coi-serviceworker 방식, sw는 하나)을 넣고 build.py 생성 로직에 반영; 격리 실패 시 단일 스레드 폴백. tools/ref_align.py: 모범 음성의 단어·음소 시간을 같은 모델로 미리 정렬해 site/data/reading/align/<lesson>.json. recorder → worker → diagnose 연결, 채점 후 PCM 버퍼 해제. tests/score.test.js가 Node에서 전체 엔진을 돌린다.",
+   "needs": [
+    "B-01",
+    "B-02",
+    "B-03"
+   ],
+   "model": "opus",
+   "checks": [
+    "node tests/score.test.js --report",
+    ".venv\\Scripts\\python.exe tools/qa.py --smoke"
+   ],
+   "files": [
+    "site/js/worker/score.js",
+    "tools/ref_align.py"
+   ]
+  },
+  {
+   "code": "B-05",
+   "wave": "B",
+   "title": "엄격 채점 보정·성능",
+   "task": "임계값을 조정해 목표를 맞춘다: 모범 음성 ≥90(≈95), 오답 변형 ≤60이고 오류 위치 적중 ≥85%, 무음·잡음·다른 문장 ≤20, 오류가 하나라도 있으면 <90. 점수를 올리려고 기준을 느슨하게 하지 않는다. tests/perf.mjs: Playwright chromium 모바일 에뮬레이션 + CPU 4× 스로틀(CDP)에서 fixture PCM 주입(?fixture-audio=)으로 5초 문장 채점 ≤3초, 메모리 피크 ≤400MB; webkit에서도 결과 일치. LOG에 지표 표.",
+   "needs": [
+    "B-04"
+   ],
+   "model": "opus",
+   "checks": [
+    "node tests/score.test.js",
+    "node tests/perf.mjs"
+   ]
+  },
+  {
+   "code": "B-06",
+   "wave": "B",
+   "title": "커밋·배포 2",
+   "task": "A-07과 같은 절차로 커밋·push·배포 확인. 배포 사이트에서 --eval로 crossOriginIsolated와 모델 로드, fixture 채점이 되는지 확인한다.",
+   "needs": [
+    "B-05"
+   ],
+   "model": "sonnet"
+  },
+  {
+   "code": "B-OK",
+   "wave": "B",
+   "title": "승인 2: 실기기 녹음·진단",
+   "task": "PC Chrome/Edge, iPhone Safari, 갤럭시 Samsung Internet·Chrome에서 Lesson 02 연습 탭 PRACTICE C 덱을 녹음해 본다. 일부러 틀리게(스톱, 베드) 읽었을 때 위치가 짚이는지, 점수가 후하지 않은지, 3초 안에 나오는지, 같은 문장 기기 간 차이가 ±5점 안인지, 카드를 넘긴 뒤 녹음이 남지 않는지 확인한다.",
+   "needs": [
+    "B-06"
+   ],
+   "model": "opus",
+   "kind": "user"
+  },
+  {
+   "code": "C-00",
+   "wave": "C",
+   "title": "나머지 레슨 가져오기·빌드",
+   "task": "A-01과 같은 규칙으로 Reading Studio의 Lesson 01, 04–16과 Reference 01–03을 content/reading/에 가져오고(페이지 id는 _course.md의 링크), 이미지를 받는다. build.py가 새 구성 요소를 모두 처리하게 고치고 test_build.py를 전 레슨으로 넓힌다. Lesson 16의 sound check는 연습 덱으로 만든다. _course.md의 'Not sure where to start?' 안내를 원문대로 되살린다.",
+   "needs": [
+    "B-OK"
+   ],
+   "model": "opus",
+   "checks": [
+    ".venv\\Scripts\\python.exe tools/build.py",
+    ".venv\\Scripts\\python.exe tools/test_build.py"
+   ]
+  },
+  {
+   "code": "C-01",
+   "wave": "C",
+   "title": "전 레슨 TTS·정렬",
+   "task": "tools/tts.py로 전 레슨 음성을 만들고(오래 걸리면 레슨별 --only로 나눠 끝까지), tools/ref_align.py로 기준 정렬을 만든다. 오답 변형 보정 세트를 몇 개 레슨에 추가해 score.test.js가 계속 통과하는지 본다.",
+   "needs": [
+    "C-00"
+   ],
+   "model": "sonnet",
+   "checks": [
+    ".venv\\Scripts\\python.exe tools/tts.py --check",
+    "node tests/score.test.js"
+   ]
+  },
+  {
+   "code": "C-02",
+   "wave": "C",
+   "title": "전 레슨 화면 QA",
+   "task": "모든 레슨의 레슨 탭·연습 탭을 세 기기에서 --smoke하고 스크린샷을 훑어 깨진 표·카드·긴 지문을 고친다.",
+   "needs": [
+    "C-01"
+   ],
+   "model": "sonnet",
+   "checks": [
+    ".venv\\Scripts\\python.exe tools/qa.py --smoke"
+   ]
+  },
+  {
+   "code": "C-03",
+   "wave": "C",
+   "title": "커밋·배포 3",
+   "task": "A-07과 같은 절차.",
+   "needs": [
+    "C-02"
+   ],
+   "model": "sonnet"
+  },
+  {
+   "code": "C-OK",
+   "wave": "C",
+   "title": "최종 확인",
+   "task": "배포 사이트에서 몇 개 레슨을 골라 확인한다.",
+   "needs": [
+    "C-03"
+   ],
+   "model": "opus",
+   "kind": "user"
+  }
+ ],
+ "done": {
+  "A-00": "2026-10-09",
+  "A-REPO": "2026-10-09",
+  "A-01": "2026-10-09",
+  "A-02": "2026-10-09",
+  "A-04": "2026-10-09",
+  "A-03": "2026-10-09",
+  "A-05": "2026-10-09",
+  "A-06": "2026-10-09"
+ }
+}

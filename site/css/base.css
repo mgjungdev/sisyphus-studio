@@ -1,0 +1,121 @@
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+button { font: inherit; color: inherit; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+[hidden] { display: none !important; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+#view { outline: none; }
+
+/* ---------- top bar ---------- */
+.topbar {
+  position: sticky; top: 0; z-index: 30;
+  display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 12px;
+  height: 56px; padding: 0 max(16px, env(safe-area-inset-right)) 0 max(16px, env(safe-area-inset-left));
+  background: color-mix(in srgb, var(--bg) 86%, transparent);
+  backdrop-filter: blur(10px) saturate(1.2);
+  -webkit-backdrop-filter: blur(10px) saturate(1.2);
+  border-bottom: 1px solid var(--rule);
+}
+body[data-view="library"] .topbar {
+  background: color-mix(in srgb, var(--wall) 86%, transparent);
+  border-bottom-color: transparent;
+}
+.wordmark {
+  display: inline-flex; align-items: center; gap: 8px;
+  text-decoration: none; font-family: var(--font-read); font-weight: 400; font-size: 20px; letter-spacing: -.01em;
+  min-height: 44px;
+}
+.wordmark svg { width: 22px; height: 22px; color: var(--ink); }
+.topbar-title {
+  min-width: 0; text-align: center; display: flex; justify-content: center; font-family: var(--font-read); font-size: 15px; color: var(--ink-2);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.topbar-actions { display: flex; gap: 4px; }
+.icon-btn {
+  position: relative; display: inline-grid; place-items: center;
+  width: 44px; height: 44px; border-radius: 10px; border: 0; background: transparent; cursor: pointer;
+  color: var(--ink-2); text-decoration: none;
+}
+.icon-btn:hover { background: color-mix(in srgb, var(--ink) 7%, transparent); color: var(--ink); }
+.icon-btn svg { width: 22px; height: 22px; }
+.icon-btn[aria-current="page"] { color: var(--accent); }
+.topbar { transition: background-color .45s ease, border-color .45s ease; }
+
+/* Shelves ⇄ graph: a segmented switch whose thumb slides to the view on screen (no thumb on other pages) */
+.view-switch {
+  position: relative; display: inline-grid; grid-auto-flow: column; grid-auto-columns: 1fr; align-self: center;
+  margin-right: 4px; padding: 2px; border: 1px solid var(--rule); border-radius: 999px;
+  background: color-mix(in srgb, var(--ink) 5%, transparent);
+}
+.view-switch a {
+  position: relative; z-index: 1; display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+  min-height: 36px; padding: 0 14px 0 11px; border-radius: 999px; text-decoration: none;
+  font: 500 13.5px/1 var(--font-ui); color: var(--ink-2); transition: color .3s ease;
+}
+.view-switch a:hover { color: var(--ink); }
+.view-switch a[aria-current="page"] { color: var(--ink); }
+.view-switch svg { width: 19px; height: 19px; flex: none; }
+.view-thumb {
+  position: absolute; top: 2px; bottom: 2px; left: 2px; width: calc(50% - 2px); border-radius: 999px;
+  background: var(--thumb, var(--surface)); box-shadow: 0 1px 2px rgb(0 0 0 / .12), 0 0 0 1px color-mix(in srgb, var(--rule) 60%, transparent);
+  opacity: 0; transition: transform .42s cubic-bezier(.3,.9,.3,1), opacity .25s ease;
+}
+:root[data-theme="night"], :root[data-theme="gray"] { --thumb: color-mix(in srgb, var(--ink) 17%, var(--surface)); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme]) { --thumb: color-mix(in srgb, var(--ink) 17%, var(--surface)); } }
+.view-switch[data-on="library"] .view-thumb { opacity: 1; }
+.view-switch[data-on="graph"] .view-thumb { opacity: 1; transform: translateX(100%); }
+@media (max-width: 560px) {
+  .wordmark span { display: none; }
+  body[data-view="library"] .wordmark span { display: none; }
+  /* the switch's shelves button is the way home, so the bar keeps its room for the shelves' arrange control */
+  .topbar { grid-template-columns: 1fr auto; }
+  .wordmark { display: none; }
+  .view-switch a { padding: 0 10px; }
+  .view-switch a span { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .view-thumb, .topbar { transition: none; } }
+
+/* The view being left, held over (graph) or under (shelves) the one coming in while it fades: app.js */
+.view-leave { position: fixed; left: 0; right: 0; z-index: 0; pointer-events: none; }
+.view-leave.from-library { background: var(--wall); }
+.view-leave.from-graph { top: 0; bottom: 0; z-index: 25; transform-origin: 50% 55%; }
+/* A view on its way out does not blur what moves under it: that would repaint the blur every frame */
+.view-leave * { backdrop-filter: none !important; -webkit-backdrop-filter: none !important; }
+/* Books in the air between a shelf and a node on the map (transit.js): under the top bar, over both views */
+.fly-layer { position: fixed; inset: 0; z-index: 29; pointer-events: none; overflow: hidden; }
+.fly { position: absolute; will-change: transform, opacity; }
+.fly .spine > * { will-change: opacity; } /* the lettering fades on the compositor, not by repainting the spine */
+.fly .spine { position: absolute; inset: 0; width: auto; height: auto; transform: none; box-shadow: 0 2px 8px rgb(0 0 0 / .22), 0 0 0 .5px rgb(0 0 0 / .35); }
+
+/* ---------- shared bits ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--rule);
+  background: var(--surface); color: var(--ink); font-weight: 500; font-size: 15px; cursor: pointer; text-decoration: none;
+}
+.btn:hover { border-color: var(--ink-3); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn.primary:hover { filter: brightness(1.06); }
+.btn.ghost { background: transparent; }
+.chip {
+  display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 999px;
+  border: 1px solid var(--rule); background: transparent; cursor: pointer; font-size: 14px; color: var(--ink-2);
+}
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}

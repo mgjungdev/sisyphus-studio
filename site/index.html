@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#e8eae6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161a19" media="(prefers-color-scheme: dark)">
+<title>Sisyphus Studio</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="img/icon.svg" type="image/svg+xml">
+<link rel="icon" href="img/icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Studio">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/studio.css">
+<link rel="stylesheet" href="css/deck.css">
+<link rel="modulepreload" href="js/player.js">
+<link rel="modulepreload" href="js/lesson.js">
+<script type="module" src="js/router.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="wordmark" href="#/" aria-label="Sisyphus Studio 홈">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 20.5 21.5 9.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12.6" cy="10.4" r="4.4" fill="currentColor"/></svg>
+    <span>Sisyphus Studio</span>
+  </a>
+  <nav class="tabs" id="tabs" aria-label="레슨과 연습" hidden>
+    <a data-tab="lesson" href="#/">레슨</a>
+    <a data-tab="practice" href="#/">연습</a>
+    <span class="tabs-thumb" aria-hidden="true"></span>
+  </nav>
+  <div class="voicebar" id="voicebar" role="group" aria-label="모범 음성" hidden>
+    <button type="button" class="pref" id="pref-voice"><span class="pv">여</span></button>
+    <button type="button" class="pref" id="pref-slow" aria-pressed="false"><span>느리게</span></button>
+  </div>
+</header>
+<main id="view" tabindex="-1"></main>
+</body>
+</html>

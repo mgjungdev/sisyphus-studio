@@ -1,0 +1,6 @@
+kokoro-onnx
+soundfile
+numpy
+imageio-ffmpeg
+playwright
+cmudict
